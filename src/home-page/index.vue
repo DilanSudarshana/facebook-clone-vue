@@ -1,7 +1,10 @@
 <template>
+
+    <Navbar></Navbar>
+
     <div class="container">
         <div class="row shadow-sm">
-            <Navbar></Navbar>
+
         </div>
     </div>
 </template>

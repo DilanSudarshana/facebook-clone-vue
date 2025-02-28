@@ -1,6 +1,6 @@
 <template>
 
-    <div class="bg-light p-1 d-flex flex-wrap align-items-center justify-content-between">
+    <div class="bg-light p-2 d-flex flex-wrap align-items-center justify-content-between px-5 shadow-lg">
         <LeftSide></LeftSide>
         <Middle></Middle>
         <RightSide></RightSide>
