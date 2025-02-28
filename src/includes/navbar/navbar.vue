@@ -5,11 +5,14 @@
     </div>
 
     <div class="col-lg-4 bg-light p-3 d-flex">
-        <RightSide></RightSide>
-    </div>
-    <div class="col-lg-4 bg-light p-3 d-flex">
         <Middle></Middle>
     </div>
+
+    <div class="col-lg-4 bg-light p-3 d-flex align-item-end justify-content-end">
+        <RightSide></RightSide>
+    </div>
+
+
 
 </template>
 
