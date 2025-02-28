@@ -1,8 +1,63 @@
 <template>
 
-    <div class="row  pt-5 ps-4">
+    <div class="h-100 d-flex flex-column justify-content-start align-items-start mt-2">
+
+        <div class="d-flex flex-row justify-content-center align-items-center">
+            <div class="rounded-circle me-3"
+                style="width: 40px; height: 40px; overflow: hidden; background-color: #f0f0f0;">
+            </div>
+            <div class="mt-2 fw-bold mt-3">
+                <p class="text-start">Dilan Sudarshana</p>
+            </div>
+        </div>
+
+        <div class="d-flex flex-row justify-content-center align-items-center">
+            <div class="rounded-circle me-3"
+                style="width: 40px; height: 40px; overflow: hidden; background-color: #f0f0f0;">
+            </div>
+            <div class="mt-2 fw-bold mt-3">
+                <p class="text-start">Dilan Sudarshana</p>
+            </div>
+        </div>
+
+        <div class="d-flex flex-row justify-content-center align-items-center">
+            <div class="rounded-circle me-3"
+                style="width: 40px; height: 40px; overflow: hidden; background-color: #f0f0f0;">
+            </div>
+            <div class="mt-2 fw-bold mt-3">
+                <p class="text-start">Dilan Sudarshana</p>
+            </div>
+        </div>
+
+        <div class="d-flex flex-row justify-content-center align-items-center">
+            <div class="rounded-circle me-3"
+                style="width: 40px; height: 40px; overflow: hidden; background-color: #f0f0f0;">
+            </div>
+            <div class="mt-2 fw-bold mt-3">
+                <p class="text-start">Dilan Sudarshana</p>
+            </div>
+        </div>
+
+        <div class="d-flex flex-row justify-content-center align-items-center">
+            <div class="rounded-circle me-3"
+                style="width: 40px; height: 40px; overflow: hidden; background-color: #f0f0f0;">
+            </div>
+            <div class="mt-2 fw-bold mt-3">
+                <p class="text-start">Dilan Sudarshana</p>
+            </div>
+        </div>
+
+        <hr>
+
+        
+
+        <h3 class="badge bg-primary">Flex item 3</h3>
+    </div>
+
+    <!-- <div class="row  pt-5 ps-4">
 
         <div class="row d-flex rounded p-1">
+
             <div class="col-lg-2">
                 <div class="rounded-circle me-3"
                     style="width: 40px; height: 40px; overflow: hidden; background-color: #f0f0f0;">
@@ -84,7 +139,8 @@
             <div class="col-lg-2">
                 <button style="width: 40px; height: 40px; overflow: hidden; background-color: #f0f0f0;"
                     class="btn rounded-circle" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
-                    aria-expanded="false" aria-controls="collapseExample"><i class="bi bi-chevron-compact-down fw-bold"></i>
+                    aria-expanded="false" aria-controls="collapseExample"><i
+                        class="bi bi-chevron-compact-down fw-bold"></i>
                 </button>
             </div>
             <div class="col-lg-8 text-start">
@@ -191,7 +247,7 @@
             </div>
         </div>
 
-    </div>
+    </div> -->
 
 
 </template>

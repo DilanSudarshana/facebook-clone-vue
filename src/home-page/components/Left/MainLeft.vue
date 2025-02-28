@@ -1,5 +1,5 @@
 <template>
-    <div class="col-md-4 bg-light mt-2">
+    <div class="col-md-4 bg-light mt-2  d-none d-lg-block">
 
         <ListItems></ListItems>
 

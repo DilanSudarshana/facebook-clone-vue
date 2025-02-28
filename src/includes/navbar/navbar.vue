@@ -1,10 +1,24 @@
 <template>
 
-    <div class="bg-light p-2 d-flex flex-wrap align-items-center justify-content-between px-5 shadow-sm">
-        <LeftSide></LeftSide>
-        <Middle></Middle>
-        <RightSide></RightSide>
+    <div class="container p-2 bg-light shadow-sm">
+        <div class="row gx-3 d-flex flex-wrap">
+
+            <div class="col-6 col-md-6 col-lg-4">
+                <LeftSide></LeftSide>
+            </div>
+
+            <div class="col-lg-4 d-none d-lg-block">
+                <Middle></Middle>
+            </div>
+
+            <div class="col-6 col-md-6 col-lg-4">
+                <RightSide></RightSide>
+            </div>
+
+        </div>
     </div>
+
+
 
 </template>
 

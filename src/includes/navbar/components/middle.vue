@@ -1,41 +1,19 @@
 <template>
 
-    <div class="d-none d-md-block">
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-start mb-md-0">
 
-            <div class="row justify-content-between">
-                <div class="col-md-3">
-                    <div class="col-3">
-                        <div class="rounded me-1 d-flex align-item-center justify-content-center"
-                            style="width: 40px; height: 40px; overflow: hidden; background-color: #d1ded4;"></div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="col-3">
-                        <div class="rounded me-1 d-flex align-item-center justify-content-center"
-                            style="width: 40px; height: 40px; overflow: hidden; background-color: #d1ded4;"></div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="col-3">
-                        <div class="rounded me-1 d-flex align-item-center justify-content-center"
-                            style="width: 40px; height: 40px; overflow: hidden; background-color: #d1ded4;"></div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="col-3">
-                        <div class="rounded me-1 d-flex align-item-center justify-content-center"
-                            style="width: 40px; height: 40px; overflow: hidden; background-color: #d1ded4;"></div>
-                    </div>
-                </div>
-
-            </div>
-
-        </ul>
+    <div class="h-100 d-flex justify-content-center align-items-center">
+        <div class="rounded me-1 d-flex shadow-sm align-item-center justify-content-center"
+            style="width: 40px; height: 40px; overflow: hidden; background-color: #d1ded4;"><i
+                class="fas fa-gamepad"></i></div>
+        <div class="rounded me-1 d-flex shadow-sm align-item-center justify-content-center"
+            style="width: 40px; height: 40px; overflow: hidden; background-color: #d1ded4;"></div>
+        <div class="rounded me-1 d-flex shadow-sm align-item-center justify-content-center"
+            style="width: 40px; height: 40px; overflow: hidden; background-color: #d1ded4;"></div>
+        <div class="rounded me-1 d-flex shadow-sm align-item-center justify-content-center"
+            style="width: 40px; height: 40px; overflow: hidden; background-color: #d1ded4;"></div>
     </div>
+
+
 
 </template>
 
