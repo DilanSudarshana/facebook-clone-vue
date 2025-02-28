@@ -1,18 +1,10 @@
 <template>
 
-    <div class="col-lg-4 bg-light p-3 d-flex">
+    <div class="bg-light p-1 d-flex flex-wrap align-items-center justify-content-between">
         <LeftSide></LeftSide>
-    </div>
-
-    <div class="col-lg-4 bg-light p-3 d-flex">
         <Middle></Middle>
-    </div>
-
-    <div class="col-lg-4 bg-light p-3 d-flex align-item-end justify-content-end">
         <RightSide></RightSide>
     </div>
-
-
 
 </template>
 
@@ -20,6 +12,7 @@
 import LeftSide from './components/LeftSide.vue';
 import Middle from './components/Middle.vue';
 import RightSide from './components/RightSide.vue';
+
 
 export default {
     name: 'Navbar',
