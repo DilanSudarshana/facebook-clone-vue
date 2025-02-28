@@ -3,7 +3,7 @@
     <div class="h-100 d-flex justify-content-center align-items-center">
 
         <div class="rounded-circle me-3 shadow-lg "
-            style="width: 40px; height: 40px; overflow: hidden; background-color: #007bff;">
+            style="width: 30px; height: 30px; overflow: hidden; background-color: #007bff;">
             <img src="/src/assets/icons/facebook.svg" style="width: 40px; height: 40px;" alt="">
         </div>
 

@@ -21,21 +21,21 @@
 
                         <div class="d-flex flex-row justify-content-between align-items-center me-1">
                             <div class="rounded-circle me-1"
-                                style="width: 30px; height: 30px; overflow: hidden; background-color: wheat;">
+                                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
                             </div>
                             <p class="me-2 fw-bold mt-3">Live Video</p>
                         </div>
 
                         <div class="d-flex flex-row justify-content-between align-items-center me-1">
                             <div class="rounded-circle me-1"
-                                style="width: 30px; height: 30px; overflow: hidden; background-color: wheat;">
+                                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
                             </div>
                             <p class="me-2 fw-bold mt-3">Live Video</p>
                         </div>
 
                         <div class="d-flex flex-row justify-content-between align-items-center me-1">
                             <div class="rounded-circle me-1"
-                                style="width: 30px; height: 30px; overflow: hidden; background-color: wheat;">
+                                style="width: 30px; height: 30px; overflow: hidden; background-color:#f0f0f0;">
                             </div>
                             <p class="me-2 fw-bold mt-3">Live Video</p>
                         </div>
@@ -46,33 +46,6 @@
         </div>
 
     </div>
-
-    <!-- <div class="container bg-light p-2 rounded shadow-sm">
-
-        <div class="row p-3">
-            <div class="col-lg-2">
-                <div class="rounded-circle me-3"
-                    style="width: 40px; height: 40px; overflow: hidden; background-color: #f0f0f0;">
-                </div>
-            </div>
-            <div class="col-lg-10 text-start">
-                
-            </div>
-        </div>
-
-        <div class="p-2 row d-flex justify-content-center align-item-center">
-            <div class="col-lg-4 d-flex">
-                <p class="fw-bold" style="font-size: small;">Live Video</p>
-            </div>
-            <div class="col-lg-4 d-flex">
-                <p class="fw-bold" style="font-size: small;">Photo/Videos</p>
-            </div>
-            <div class="col-lg-4 d-flex">
-                <p class="fw-bold" style="font-size: small;">Feeling/Activity</p>
-            </div>
-        </div>
-
-    </div> -->
 
 </template>
 
