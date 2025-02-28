@@ -4,7 +4,7 @@
 
         <div class="d-flex flex-row justify-content-center align-items-center">
             <div class="rounded-circle me-3"
-                style="width: 40px; height: 40px; overflow: hidden; background-color: #f0f0f0;">
+                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
             </div>
             <div class="mt-2 fw-bold mt-3">
                 <p class="text-start">Dilan Sudarshana</p>
@@ -13,7 +13,7 @@
 
         <div class="d-flex flex-row justify-content-center align-items-center">
             <div class="rounded-circle me-3"
-                style="width: 40px; height: 40px; overflow: hidden; background-color: #f0f0f0;">
+                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
             </div>
             <div class="mt-2 fw-bold mt-3">
                 <p class="text-start">Dilan Sudarshana</p>
@@ -22,7 +22,7 @@
 
         <div class="d-flex flex-row justify-content-center align-items-center">
             <div class="rounded-circle me-3"
-                style="width: 40px; height: 40px; overflow: hidden; background-color: #f0f0f0;">
+                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
             </div>
             <div class="mt-2 fw-bold mt-3">
                 <p class="text-start">Dilan Sudarshana</p>
@@ -31,7 +31,7 @@
 
         <div class="d-flex flex-row justify-content-center align-items-center">
             <div class="rounded-circle me-3"
-                style="width: 40px; height: 40px; overflow: hidden; background-color: #f0f0f0;">
+                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
             </div>
             <div class="mt-2 fw-bold mt-3">
                 <p class="text-start">Dilan Sudarshana</p>
@@ -40,7 +40,7 @@
 
         <div class="d-flex flex-row justify-content-center align-items-center">
             <div class="rounded-circle me-3"
-                style="width: 40px; height: 40px; overflow: hidden; background-color: #f0f0f0;">
+                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
             </div>
             <div class="mt-2 fw-bold mt-3">
                 <p class="text-start">Dilan Sudarshana</p>
@@ -49,7 +49,7 @@
 
         <div class="d-flex flex-row justify-content-center align-items-center">
             <div class="rounded-circle me-3"
-                style="width: 40px; height: 40px; overflow: hidden; background-color: #f0f0f0;">
+                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
             </div>
             <div class="mt-2 fw-bold mt-3">
                 <p class="text-start">Dilan Sudarshana</p>
@@ -61,10 +61,12 @@
         </div>
 
         <div class="d-flex flex-row justify-content-center align-items-center">
-            <button style="width: 40px; height: 40px; overflow: hidden; background-color: #f0f0f0;"
+            <button style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;"
                 class="btn rounded-circle me-3" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i
-                    class="bi bi-chevron-compact-down fw-bold"></i>
+                data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <div class="d-flex justify-content-center align-items-center mb-2">
+                    <p style="font-size: 12px;"><i class="bi bi-chevron-compact-down"></i></p>
+                </div>
             </button>
             <div class="mt-2 fw-bold mt-3">
                 <p class="text-start">See more</p>
@@ -75,7 +77,7 @@
 
             <div class="d-flex flex-row justify-content-center align-items-center">
                 <div class="rounded-circle me-3"
-                    style="width: 40px; height: 40px; overflow: hidden; background-color: #f0f0f0;">
+                    style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
                 </div>
                 <div class="mt-2 mt-3">
                     <p class="text-start">Page 01</p>
@@ -84,7 +86,7 @@
 
             <div class="d-flex flex-row justify-content-center align-items-center">
                 <div class="rounded-circle me-3"
-                    style="width: 40px; height: 40px; overflow: hidden; background-color: #f0f0f0;">
+                    style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
                 </div>
                 <div class="mt-2 mt-3">
                     <p class="text-start">Page 02</p>
@@ -93,7 +95,7 @@
 
             <div class="d-flex flex-row justify-content-center align-items-center">
                 <div class="rounded-circle me-3"
-                    style="width: 40px; height: 40px; overflow: hidden; background-color: #f0f0f0;">
+                    style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
                 </div>
                 <div class="mt-2 mt-3">
                     <p class="text-start">Page 03</p>
@@ -113,7 +115,7 @@ export default {
 </script>
 
 <style>
-p{
+p {
     font-size: 12px;
 }
 </style>
