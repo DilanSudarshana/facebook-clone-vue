@@ -1,7 +1,7 @@
 <template>
 
     <div class="d-none d-md-block">
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-start mb-md-0">
 
             <div class="row justify-content-between">
                 <div class="col-md-3">
