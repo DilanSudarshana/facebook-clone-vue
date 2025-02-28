@@ -1,14 +1,19 @@
 <template>
 
-
-    <div class="rounded-circle me-3" style="width: 40px; height: 40px; overflow: hidden; background-color: #007bff;">
-        <img src="/src/assets/icons/facebook.svg" style="width:40px; height: 40px;" alt="">
+    <div class="h-100 d-flex justify-content-end align-items-center">
+        <div class="rounded-circle me-1 d-flex shadow-sm"
+            style="width: 40px; height: 40px; overflow: hidden; background-color: #d1ded4;">
+        </div>
+        <div class="rounded-circle me-1 shadow-sm d-flex"
+            style="width: 40px; height: 40px; overflow: hidden; background-color: #d1ded4;">
+        </div>
+        <div class="rounded-circle me-1 shadow-sm d-flex"
+            style="width: 40px; height: 40px; overflow: hidden; background-color: #d1ded4;">
+        </div>
+        <div class="rounded-circle me-1 shadow-sm d-flex"
+            style="width: 40px; height: 40px; overflow: hidden; background-color: #d1ded4;">
+        </div>
     </div>
-    <div class="mt-1">
-        <input type="text" class="form-control rounded-pill" placeholder="Search Plant Here"
-            aria-label="Recipient's username" aria-describedby="basic-addon2">
-    </div>
-
 
 </template>
 

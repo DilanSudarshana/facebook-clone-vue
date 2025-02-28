@@ -1,15 +1,24 @@
 <template>
 
-    <div class="col-lg-4 bg-light p-3 d-flex">
-        <LeftSide></LeftSide>
+    <div class="container p-2 bg-light shadow-sm">
+        <div class="row gx-3 d-flex flex-wrap">
+
+            <div class="col-6 col-md-6 col-lg-4">
+                <LeftSide></LeftSide>
+            </div>
+
+            <div class="col-lg-4 d-none d-lg-block">
+                <Middle></Middle>
+            </div>
+
+            <div class="col-6 col-md-6 col-lg-4">
+                <RightSide></RightSide>
+            </div>
+
+        </div>
     </div>
 
-    <div class="col-lg-4 bg-light p-3 d-flex">
-        <RightSide></RightSide>
-    </div>
-    <div class="col-lg-4 bg-light p-3 d-flex">
-        <Middle></Middle>
-    </div>
+
 
 </template>
 
@@ -17,6 +26,7 @@
 import LeftSide from './components/LeftSide.vue';
 import Middle from './components/Middle.vue';
 import RightSide from './components/RightSide.vue';
+
 
 export default {
     name: 'Navbar',
