@@ -1,69 +1,90 @@
 <template>
 
-    <div class="h-100 d-flex flex-column justify-content-start align-items-start mt-2">
+    <div class="h-100 d-flex flex-column justify-content-start align-items-start mt-1">
 
-        <div class="d-flex flex-row justify-content-center align-items-center">
-            <div class="rounded-circle me-3"
+        <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded mt-2 p-1" id="contact-item">
+            <div class="rounded-circle me-2"
                 style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
             </div>
-            <div class="mt-2 fw-bold mt-3">
+            <div class="fw-bold mt-1">
                 <p class="text-start">Dilan Sudarshana</p>
             </div>
         </div>
 
-        <div class="d-flex flex-row justify-content-center align-items-center">
-            <div class="rounded-circle me-3"
+        <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
+            <div class="rounded-circle me-2"
                 style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
             </div>
-            <div class="mt-2 fw-bold mt-3">
+            <div class="fw-bold mt-1">
                 <p class="text-start">Dilan Sudarshana</p>
             </div>
         </div>
 
-        <div class="d-flex flex-row justify-content-center align-items-center">
-            <div class="rounded-circle me-3"
+
+        <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
+            <div class="rounded-circle me-2"
                 style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
             </div>
-            <div class="mt-2 fw-bold mt-3">
+            <div class="fw-bold mt-1">
                 <p class="text-start">Dilan Sudarshana</p>
             </div>
         </div>
 
-        <div class="d-flex flex-row justify-content-center align-items-center">
-            <div class="rounded-circle me-3"
+        <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
+            <div class="rounded-circle me-2"
                 style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
             </div>
-            <div class="mt-2 fw-bold mt-3">
+            <div class="fw-bold mt-1">
                 <p class="text-start">Dilan Sudarshana</p>
             </div>
         </div>
 
-        <div class="d-flex flex-row justify-content-center align-items-center">
-            <div class="rounded-circle me-3"
+
+        <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
+            <div class="rounded-circle me-2"
                 style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
             </div>
-            <div class="mt-2 fw-bold mt-3">
+            <div class="fw-bold mt-1">
                 <p class="text-start">Dilan Sudarshana</p>
             </div>
         </div>
 
-        <div class="d-flex flex-row justify-content-center align-items-center">
-            <div class="rounded-circle me-3"
+
+        <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
+            <div class="rounded-circle me-2"
                 style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
             </div>
-            <div class="mt-2 fw-bold mt-3">
+            <div class="fw-bold mt-1">
                 <p class="text-start">Dilan Sudarshana</p>
             </div>
         </div>
 
-        <div class="d-flex flex-row justify-content-center align-items-center">
-            <hr>
+
+        <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
+            <div class="rounded-circle me-2"
+                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+            </div>
+            <div class="fw-bold mt-1">
+                <p class="text-start">Dilan Sudarshana</p>
+            </div>
+        </div>
+
+        <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
+            <div class="rounded-circle me-2"
+                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+            </div>
+            <div class="fw-bold mt-1">
+                <p class="text-start">Dilan Sudarshana</p>
+            </div>
+            <div>
+                <hr>
+            </div>
         </div>
 
         <div class="d-flex flex-row justify-content-center align-items-center">
-            <button style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;"
-                class="btn rounded-circle me-3" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            <button style="width: 30px; height: 30px;background-color: #f0f0f0;" class="btn rounded-circle me-3"
+                type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false"
+                aria-controls="collapseExample">
                 <div class="d-flex justify-content-center align-items-center mb-2">
                     <p style="font-size: 12px;"><i class="bi bi-chevron-compact-down"></i></p>
                 </div>
@@ -73,31 +94,31 @@
             </div>
         </div>
 
-        <div class="collapse" id="collapseExample">
+        <div class="collapse w-100" id="collapseExample">
 
-            <div class="d-flex flex-row justify-content-center align-items-center">
-                <div class="rounded-circle me-3"
+            <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
+                <div class="rounded-circle me-2"
                     style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
                 </div>
-                <div class="mt-2 mt-3">
+                <div class="mt-1">
                     <p class="text-start">Page 01</p>
                 </div>
             </div>
 
-            <div class="d-flex flex-row justify-content-center align-items-center">
-                <div class="rounded-circle me-3"
+            <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
+                <div class="rounded-circle me-2"
                     style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
                 </div>
-                <div class="mt-2 mt-3">
+                <div class="mt-1">
                     <p class="text-start">Page 02</p>
                 </div>
             </div>
 
-            <div class="d-flex flex-row justify-content-center align-items-center">
-                <div class="rounded-circle me-3"
+            <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
+                <div class="rounded-circle me-2"
                     style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
                 </div>
-                <div class="mt-2 mt-3">
+                <div class="mt-1">
                     <p class="text-start">Page 03</p>
                 </div>
             </div>
@@ -117,5 +138,13 @@ export default {
 <style>
 p {
     font-size: 12px;
+}
+
+#contact-item {
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contact-item:hover {
+    background-color: #efefef;
 }
 </style>
