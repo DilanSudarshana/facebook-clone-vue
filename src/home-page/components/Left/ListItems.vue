@@ -5,6 +5,8 @@
         <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded mt-2 p-1" id="contact-item">
             <div class="rounded-circle me-2"
                 style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+                <img src="/src/assets/images/pro-pic.jpg" style="width: 30px; height: 30px;border-radius: 100px;"
+                    alt="">
             </div>
             <div class="fw-bold">
                 <p class="text-start fs-6">Dilan Sudarshana</p>
@@ -113,6 +115,8 @@
             <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
                 <div class="rounded-circle me-2"
                     style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+                    <img src="/src/assets/images/pro-pic.jpg" style="width: 30px; height: 30px;border-radius: 100px;"
+                        alt="">
                 </div>
                 <div class="mt-1">
                     <p class="text-start">Page 01</p>
@@ -122,6 +126,8 @@
             <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
                 <div class="rounded-circle me-2"
                     style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+                    <img src="/src/assets/images/pro-pic.jpg" style="width: 30px; height: 30px;border-radius: 100px;"
+                        alt="">
                 </div>
                 <div class="mt-1">
                     <p class="text-start">Page 02</p>
@@ -131,6 +137,8 @@
             <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
                 <div class="rounded-circle me-2"
                     style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+                    <img src="/src/assets/images/pro-pic.jpg" style="width: 30px; height: 30px;border-radius: 100px;"
+                        alt="">
                 </div>
                 <div class="mt-1">
                     <p class="text-start">Page 03</p>
@@ -140,6 +148,8 @@
             <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
                 <div class="rounded-circle me-2"
                     style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+                    <img src="/src/assets/images/pro-pic.jpg" style="width: 30px; height: 30px;border-radius: 100px;"
+                        alt="">
                 </div>
                 <div class="mt-1">
                     <p class="text-start">Page 03</p>
@@ -149,6 +159,8 @@
             <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
                 <div class="rounded-circle me-2"
                     style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+                    <img src="/src/assets/images/pro-pic.jpg" style="width: 30px; height: 30px;border-radius: 100px;"
+                        alt="">
                 </div>
                 <div class="mt-1">
                     <p class="text-start">Page 03</p>

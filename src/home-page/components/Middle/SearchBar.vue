@@ -4,13 +4,14 @@
         <div class="container">
             <div class="row">
                 <div class="h-100 d-flex flex-row justify-content-center align-items-start mt-2">
-                    <div class="rounded-circle me-3"
+                    <div class="rounded-circle me-2"
                         style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+                        <img src="/src/assets/images/pro-pic.jpg" style="width: 30px; height: 30px;border-radius: 100px;" alt="">
                     </div>
                     <div>
                         <input type="text" class="form-control rounded-pill" placeholder="Whats on your mind Dilan?"
-                            style="height: 4vh;width: 40vh;margin-top: 2px;" aria-label="Recipient's username"
-                            aria-describedby="basic-addon2">
+                            style="height: 4vh;width: 40vh;margin-top: 2px;background-color: #f0f0f0;"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
                     </div>
                 </div>
             </div>
