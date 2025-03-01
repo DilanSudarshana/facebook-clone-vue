@@ -31,17 +31,22 @@ export default {
 
 <style>
 .row::-webkit-scrollbar {
-    height: 8px;
     width: 8px;
+    height: 8px;
 }
 
 .row::-webkit-scrollbar-track {
-    background: rgb(0, 0, 0, 0.1);
+    background: transparent;
     border-radius: 99px;
 }
 
 .row::-webkit-scrollbar-thumb {
-    background: rgb(0, 0, 0, 0.15);
+    background: transparent;
     border-radius: 99px;
+    transition: background 0.3s ease-in-out;
+}
+
+.row:hover::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.15);
 }
 </style>

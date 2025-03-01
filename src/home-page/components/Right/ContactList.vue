@@ -17,7 +17,8 @@
         </div>
     </div>
 
-    <div class="d-flex flex-column justify-content-start align-items-start">
+    <div style="height: 60vh;" id="contact-list"
+        class="d-flex flex-column justify-content-start align-items-start">
 
         <div class="d-flex flex-row justify-content-center align-items-center">
             <div class="rounded-circle me-3"
@@ -25,6 +26,60 @@
             </div>
             <div class="mt-2 fw-bold mt-3">
                 <p class="text-start">Lochana Thatharani</p>
+            </div>
+        </div>
+
+        <div class="d-flex flex-row justify-content-center align-items-center">
+            <div class="rounded-circle me-3"
+                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+            </div>
+            <div class="mt-2 fw-bold mt-3">
+                <p class="text-start">Lochana Thatharani</p>
+            </div>
+        </div>
+
+        <div class="d-flex flex-row justify-content-center align-items-center">
+            <div class="rounded-circle me-3"
+                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+            </div>
+            <div class="mt-2 fw-bold mt-3">
+                <p class="text-start">Lochana Thatharani</p>
+            </div>
+        </div>
+
+        <div class="d-flex flex-row justify-content-center align-items-center">
+            <div class="rounded-circle me-3"
+                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+            </div>
+            <div class="mt-2 fw-bold mt-3">
+                <p class="text-start">Lochana Thatharani</p>
+            </div>
+        </div>
+
+        <div class="d-flex flex-row justify-content-center align-items-center">
+            <div class="rounded-circle me-3"
+                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+            </div>
+            <div class="mt-2 fw-bold mt-3">
+                <p class="text-start">Dilan Sudarshana</p>
+            </div>
+        </div>
+
+        <div class="d-flex flex-row justify-content-center align-items-center">
+            <div class="rounded-circle me-3"
+                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+            </div>
+            <div class="mt-2 fw-bold mt-3">
+                <p class="text-start">Dilan Sudarshana</p>
+            </div>
+        </div>
+
+        <div class="d-flex flex-row justify-content-center align-items-center">
+            <div class="rounded-circle me-3"
+                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+            </div>
+            <div class="mt-2 fw-bold mt-3">
+                <p class="text-start">Dilan Sudarshana</p>
             </div>
         </div>
 
@@ -47,3 +102,4 @@ export default {
     name: 'ContactList'
 }
 </script>
+
