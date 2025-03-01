@@ -1,19 +1,21 @@
 <template>
+
     <div id="main-right" class="col-md-4 bg-light mt-2  d-none d-lg-block rounded overflow-auto">
-
-        <ListItems></ListItems>
-
+        <ContactList></ContactList>
+        <GroupChat></GroupChat>
     </div>
 </template>
 
+
 <script>
-import ListItems from './ListItems.vue';
+import ContactList from './ContactList.vue';
+import GroupChat from './GroupChat.vue';
 
 export default {
-    name: 'MainLeft',
-
+    name: 'MainRight',
     components: {
-        ListItems,
+        ContactList,
+        GroupChat,
     }
 }
 </script>

@@ -10,6 +10,7 @@
             <div class="row">
                 <MainLeft></MainLeft>
                 <MainMiddle></MainMiddle>
+                <MainRight></MainRight>
             </div>
         </div>
     </div>
@@ -19,6 +20,8 @@
 import Navbar from '../includes/navbar/navbar.vue'
 import MainLeft from './components/Left/MainLeft.vue';
 import MainMiddle from './components/Middle/MainMiddle.vue';
+import MainRight from './components/Right/MainRight.vue';
+
 export default {
     name: 'Index',
 
@@ -26,6 +29,7 @@ export default {
         Navbar,
         MainLeft,
         MainMiddle,
+        MainRight,
     }
 
 }
