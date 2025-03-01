@@ -12,73 +12,78 @@
         </div>
 
         <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
-            <div class="rounded-circle me-2"
-                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+            <div id="center-div" class="rounded d-flex align-items-center justify-content-center"
+                style="width: 30px; height: 30px;">
+                <i style="color: blue;" class="bi bi-people-fill fs-8"></i>
             </div>
-            <div class="fw-bold mt-1">
+            <div class="fw-bold mt-2">
                 <p class="text-start">Friends</p>
             </div>
         </div>
 
 
         <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
-            <div class="rounded-circle me-2"
-                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+            <div id="center-div" class="rounded d-flex align-items-center justify-content-center"
+                style="width: 30px; height: 30px;">
+                <i style="color: blue;" class="bi bi-clock-history fs-8"></i>
             </div>
-            <div class="fw-bold mt-1">
+            <div class="fw-bold mt-2">
                 <p class="text-start">Memories</p>
             </div>
         </div>
 
         <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
-            <div class="rounded-circle me-2"
-                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+            <div id="center-div" class="rounded d-flex align-items-center justify-content-center"
+                style="width: 30px; height: 30px;">
+                <i style="color: purple;" class="bi bi-save-fill fs-8"></i>
             </div>
-            <div class="fw-bold mt-1">
+            <div class="fw-bold mt-2">
                 <p class="text-start">Saved</p>
             </div>
         </div>
 
 
         <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
-            <div class="rounded-circle me-2"
-                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+            <div id="center-div" class="rounded d-flex align-items-center justify-content-center"
+                style="width: 30px; height: 30px;">
+                <i style="color: lightskyblue;" class="bi bi-people-fill fs-8"></i>
             </div>
-            <div class="fw-bold mt-1">
-                <p class="text-start">Groups</p>
-            </div>
-        </div>
-
-
-        <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
-            <div class="rounded-circle me-2"
-                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
-            </div>
-            <div class="fw-bold mt-1">
-                <p class="text-start">Video</p>
+            <div class="fw-bold mt-2">
+                <p class="text-start">Group</p>
             </div>
         </div>
 
 
         <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
-            <div class="rounded-circle me-2"
-                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+            <div id="center-div" class="rounded d-flex align-items-center justify-content-center"
+                style="width: 30px; height: 30px;">
+                <i style="color: lightskyblue;" class="bi bi-play-circle-fill fs-8"></i>
             </div>
-            <div class="fw-bold mt-1">
+            <div class="fw-bold mt-2">
+                <p class="text-start">Videos</p>
+            </div>
+        </div>
+
+
+        <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
+            <div id="center-div" class="rounded d-flex align-items-center justify-content-center"
+                style="width: 30px; height: 30px;">
+                <i style="color: lightskyblue;" class="bi bi-shop fs-8"></i>
+            </div>
+            <div class="fw-bold mt-2">
                 <p class="text-start">Marketplace</p>
             </div>
         </div>
 
         <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
-            <div class="rounded-circle me-2"
-                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+            <div id="center-div" class="rounded d-flex align-items-center justify-content-center"
+                style="width: 30px; height: 30px;">
+                <i style="color: blueviolet;" class="bi bi-newspaper fs-8"></i>
             </div>
-            <div class="fw-bold mt-1">
+            <div class="fw-bold mt-2">
                 <p class="text-start">Feeds</p>
             </div>
         </div>
-
-        <hr style="color: red;border: 1px solid black;width: 100%;">
 
         <div class="d-flex flex-row justify-content-center align-items-center">
             <button style="width: 30px; height: 30px;background-color: #f0f0f0;" class="btn rounded-circle me-3"
@@ -90,6 +95,16 @@
             </button>
             <div class="mt-2 fw-bold mt-3">
                 <p class="text-start">See more</p>
+            </div>
+        </div>
+
+        <hr style="color: red;border: 1px solid black;width: 100%;">
+
+        <div class=" d-flex justify-content-between align-items-start">
+            <div class="d-flex justify-content-start align-items-start">
+                <div>
+                    <h6 class="text-muted mt-1">Your shortcuts</h6>
+                </div>
             </div>
         </div>
 
