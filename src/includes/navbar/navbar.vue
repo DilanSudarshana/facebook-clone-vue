@@ -1,6 +1,6 @@
 <template>
 
-    <div class="container p-2 bg-light shadow-sm fixed-top">
+    <div class="container p-2 bg-light shadow-sm">
         <div class="row gx-3 d-flex flex-wrap">
 
             <div class="col-6 col-md-6 col-lg-4">

@@ -1,6 +1,6 @@
 <template>
 
-    <div class="d-flex flex-row justify-content-center align-items-start bg-light rounded" style="height: 15vh;">
+    <div class="d-flex flex-row justify-content-center align-items-start bg-light rounded" style="height: 18vh;">
         <div class="container">
             <div class="row">
                 <div class="h-100 d-flex flex-row justify-content-center align-items-start mt-2">
@@ -14,8 +14,8 @@
                     </div>
                 </div>
             </div>
-
-            <div class="row mt-2">
+            <hr>
+            <div class="row">
                 <div class="d-flex flex-row justify-content-center align-items-center">
                     <div class="d-flex flex-row justify-content-between align-items-center">
 
@@ -30,14 +30,14 @@
                             <div class="rounded-circle me-1"
                                 style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
                             </div>
-                            <p class="me-2 fw-bold mt-3">Live Video</p>
+                            <p class="me-2 fw-bold mt-3">Photo/Video</p>
                         </div>
 
                         <div class="d-flex flex-row justify-content-between align-items-center me-1">
                             <div class="rounded-circle me-1"
                                 style="width: 30px; height: 30px; overflow: hidden; background-color:#f0f0f0;">
                             </div>
-                            <p class="me-2 fw-bold mt-3">Live Video</p>
+                            <p class="me-2 fw-bold mt-3">Feeling/activity</p>
                         </div>
                         
                     </div>
