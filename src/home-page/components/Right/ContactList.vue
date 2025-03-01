@@ -91,6 +91,15 @@
             </div>
         </div>
 
+        <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
+            <div class="rounded-circle me-3"
+                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+            </div>
+            <div class="fw-bold mt-1">
+                <p class="text-start">Lochana Thatharani</p>
+            </div>
+        </div>
+
     </div>
 
 </template>

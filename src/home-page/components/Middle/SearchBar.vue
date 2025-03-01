@@ -16,31 +16,32 @@
             </div>
             <hr>
             <div class="row">
-                <div class="d-flex flex-row justify-content-center align-items-center">
-                    <div class="d-flex flex-row justify-content-between align-items-center">
+                <div class="d-flex flex-row justify-content-between align-items-center">
 
-                        <div id="contact-item" class="d-flex flex-row justify-content-between align-items-center me-1 rounded">
-                            <div class="rounded-circle me-1"
-                                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
-                            </div>
-                            <p class="me-2 fw-bold mt-3">Live Video</p>
+                    <div id="contact-item" class="d-flex flex-row justify-content-between align-items-center rounded">
+                        <div id="center-div" class="rounded d-flex align-items-center justify-content-center"
+                            style="width: 30px; height: 30px;">
+                            <i style="color: red;" class="bi bi-camera-reels-fill fs-5"></i>
                         </div>
-
-                        <div id="contact-item" class="d-flex flex-row justify-content-between align-items-center me-1 rounded">
-                            <div class="rounded-circle me-1"
-                                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
-                            </div>
-                            <p class="me-2 fw-bold mt-3">Photo/Video</p>
-                        </div>
-
-                        <div id="contact-item" class="d-flex flex-row justify-content-between align-items-center me-1 rounded">
-                            <div class="rounded-circle me-1"
-                                style="width: 30px; height: 30px; overflow: hidden; background-color:#f0f0f0;">
-                            </div>
-                            <p class="me-2 fw-bold mt-3">Feeling/activity</p>
-                        </div>
-
+                        <p class="me-2 fw-bold mt-1 mb-0">Live Video</p>
                     </div>
+
+                    <div id="contact-item" class="d-flex flex-row justify-content-between align-items-center rounded">
+                        <div id="center-div" class="rounded d-flex align-items-center justify-content-center"
+                            style="width: 30px; height: 30px;">
+                            <i style="color: lawngreen;" class="bi bi-images fs-5"></i>
+                        </div>
+                        <p class="me-2 fw-bold mt-1 mb-0">Photo/Videos</p>
+                    </div>
+
+                    <div id="contact-item" class="d-flex flex-row justify-content-between align-items-center rounded">
+                        <div id="center-div" class="rounded d-flex align-items-center justify-content-center"
+                            style="width: 30px; height: 30px;">
+                            <i style="color: yellow;" class="bi bi-envelope-paper-heart-fill fs-5"></i>
+                        </div>
+                        <p class="me-2 fw-bold mt-1 mb-0">Feeling/Activity</p>
+                    </div>
+
                 </div>
             </div>
         </div>
