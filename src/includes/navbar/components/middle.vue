@@ -2,15 +2,15 @@
 
 
     <div class="h-100 d-flex justify-content-center align-items-center">
-        <div class="rounded me-1 d-flex shadow-sm align-item-center justify-content-center"
-            style="width: 40px; height: 40px; overflow: hidden; background-color: #d1ded4;"><i
+        <div class="rounded me-2 d-flex shadow-sm align-item-center justify-content-center"
+            style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;"><i
                 class="fas fa-gamepad"></i></div>
-        <div class="rounded me-1 d-flex shadow-sm align-item-center justify-content-center"
-            style="width: 40px; height: 40px; overflow: hidden; background-color: #d1ded4;"></div>
-        <div class="rounded me-1 d-flex shadow-sm align-item-center justify-content-center"
-            style="width: 40px; height: 40px; overflow: hidden; background-color: #d1ded4;"></div>
-        <div class="rounded me-1 d-flex shadow-sm align-item-center justify-content-center"
-            style="width: 40px; height: 40px; overflow: hidden; background-color: #d1ded4;"></div>
+        <div class="rounded me-2 d-flex shadow-sm align-item-center justify-content-center"
+            style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;"></div>
+        <div class="rounded me-2 d-flex shadow-sm align-item-center justify-content-center"
+            style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;"></div>
+        <div class="rounded me-2 d-flex shadow-sm align-item-center justify-content-center"
+            style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;"></div>
     </div>
 
 
