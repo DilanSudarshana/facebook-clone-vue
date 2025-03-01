@@ -19,27 +19,27 @@
                 <div class="d-flex flex-row justify-content-center align-items-center">
                     <div class="d-flex flex-row justify-content-between align-items-center">
 
-                        <div class="d-flex flex-row justify-content-between align-items-center me-1">
+                        <div id="contact-item" class="d-flex flex-row justify-content-between align-items-center me-1 rounded">
                             <div class="rounded-circle me-1"
                                 style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
                             </div>
                             <p class="me-2 fw-bold mt-3">Live Video</p>
                         </div>
 
-                        <div class="d-flex flex-row justify-content-between align-items-center me-1">
+                        <div id="contact-item" class="d-flex flex-row justify-content-between align-items-center me-1 rounded">
                             <div class="rounded-circle me-1"
                                 style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
                             </div>
                             <p class="me-2 fw-bold mt-3">Photo/Video</p>
                         </div>
 
-                        <div class="d-flex flex-row justify-content-between align-items-center me-1">
+                        <div id="contact-item" class="d-flex flex-row justify-content-between align-items-center me-1 rounded">
                             <div class="rounded-circle me-1"
                                 style="width: 30px; height: 30px; overflow: hidden; background-color:#f0f0f0;">
                             </div>
                             <p class="me-2 fw-bold mt-3">Feeling/activity</p>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -56,7 +56,15 @@ export default {
 }
 </script>
 <style>
-p{
+p {
     font-size: 10px;
+}
+
+#contact-item {
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contact-item:hover {
+    background-color: #efefef;
 }
 </style>
