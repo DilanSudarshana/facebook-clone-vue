@@ -3,7 +3,7 @@
     <div class="btn rounded-circle me-1 d-flex shadow-sm justify-content-center align-items-center" type="button"
         id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" title="Home"
         style="width: 30px; height: 30px;">
-        <i class="bi bi-messenger fs-5"></i>
+        <i class="bi bi-bell-fill fs-5"></i>
     </div>
 
     <div class="dropdown-menu mt-1">
@@ -12,7 +12,7 @@
                 <div class=" d-flex justify-content-between align-items-start">
                     <div class="d-flex justify-content-start align-items-start">
                         <div>
-                            <h5 class="text-muted">Chat</h5>
+                            <h5 class="text-muted">Notification</h5>
                         </div>
                     </div>
                     <div class="d-flex justify-content-start align-items-end">
@@ -29,7 +29,7 @@
 </template>
 <script>
 export default {
-    name: 'ChatBox'
+    name: 'NotificationBox'
 }
 </script>
 <style>
