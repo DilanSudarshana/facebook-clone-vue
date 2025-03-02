@@ -1,5 +1,6 @@
 import Index from "./home-page/index.vue"
 import LoginMain from "./login-page/LoginMain.vue"
+import ProfileMain from "./profile-page/ProfileMain.vue"
 
 import {
     createRouter,
@@ -15,6 +16,11 @@ const routes = [{
         name: 'LoginMain',
         component: LoginMain,
         path: '/login'
+    },
+    {
+        name: 'ProfileMain',
+        component: ProfileMain,
+        path: '/profile'
     },
 ];
 const router = createRouter({

@@ -7,6 +7,8 @@
                 <div class="d-flex justify-content-start align-items-start">
                     <div class="rounded-circle me-3"
                         style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+                        <img src="/src/assets/images/pro-pic-02.svg" style="width: 30px; height: 30px;border-radius: 100px;"
+                        alt="">
                     </div>
                     <div>
                         <p id="head-text" class="fw-bold"> Rata Anurata <br> 1h <i class="bi bi-globe"></i></p>
@@ -74,6 +76,8 @@
                 <div class="d-flex justify-content-start align-items-start">
                     <div class="rounded-circle me-3"
                         style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+                        <img src="/src/assets/images/pro-pic-02.svg"
+                            style="width: 30px; height: 30px;border-radius: 100px;" alt="">
                     </div>
                     <div>
                         <p id="head-text" class="fw-bold"> Rata Anurata <br> 1h <i class="bi bi-globe"></i></p>

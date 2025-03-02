@@ -1,5 +1,5 @@
 <template>
-    <div class="col-lg-4 mt-2">
+    <div class="col-lg-4 mt-2 g-5">
         <SearchBar></SearchBar>
         <StoryBar></StoryBar>
         <Post></Post>
