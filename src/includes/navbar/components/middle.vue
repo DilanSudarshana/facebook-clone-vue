@@ -4,22 +4,22 @@
 
         <div id="center-div" class="rounded d-flex align-items-center justify-content-center w-25"
             style="width: 30px; height: 30px;">
-            <i class="bi bi-house-door-fill fs-5"></i>
+            <i id="icon-middle" class="bi bi-house-door-fill fs-5"></i>
         </div>
 
         <div id="center-div" class="rounded d-flex align-items-center justify-content-center w-25"
             style="width: 30px; height: 30px;">
-            <i class="bi bi-play-btn-fill fs-5"></i>
+            <i id="icon-middle" class="bi bi-play-btn-fill fs-5"></i>
         </div>
 
         <div id="center-div" class="rounded d-flex align-items-center justify-content-center w-25"
             style="width: 30px; height: 30px;">
-            <i class="bi bi-camera-reels-fill fs-5"></i>
+            <i id="icon-middle" class="bi bi-camera-reels-fill fs-5"></i>
         </div>
 
         <div id="center-div" class="rounded d-flex align-items-center justify-content-center w-25"
             style="width: 30px; height: 30px;">
-            <i class="bi bi-controller fs-5"></i>
+            <i id="icon-middle" class="bi bi-controller fs-5"></i>
         </div>
 
     </div>
@@ -41,5 +41,12 @@ export default {
 
 #center-div:hover {
     background-color: #efefef;
+}
+
+#icon-middle{
+    transition: background-color 0.3s ease-in-out;
+}
+#icon-middle:hover{
+    color: #2b35f3;
 }
 </style>
