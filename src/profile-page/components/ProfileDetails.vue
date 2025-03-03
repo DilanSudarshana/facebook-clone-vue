@@ -86,49 +86,45 @@
                                 <div id="center-div"
                                     class="rounded d-flex align-items-center justify-content-center w-25"
                                     style="width: 30px; height: 30px;">
-                                    <h6 class="text-muted">Posts</h6>
+                                    <h6 class="text-muted">About</h6>
                                 </div>
 
                                 <div id="center-div"
                                     class="rounded d-flex align-items-center justify-content-center w-25"
                                     style="width: 30px; height: 30px;">
-                                    <h6 class="text-muted">Posts</h6>
+                                    <h6 class="text-muted">Friends</h6>
                                 </div>
 
                                 <div id="center-div"
                                     class="rounded d-flex align-items-center justify-content-center w-25"
                                     style="width: 30px; height: 30px;">
-                                    <h6 class="text-muted">Posts</h6>
+                                    <h6 class="text-muted">Photos</h6>
                                 </div>
 
                                 <div id="center-div"
                                     class="rounded d-flex align-items-center justify-content-center w-25"
                                     style="width: 30px; height: 30px;">
-                                    <h6 class="text-muted">Posts</h6>
+                                    <h6 class="text-muted">videos</h6>
                                 </div>
 
                                 <div id="center-div"
                                     class="rounded d-flex align-items-center justify-content-center w-25"
                                     style="width: 30px; height: 30px;">
-                                    <h6 class="text-muted">Posts</h6>
+                                    <h6 class="text-muted">More</h6>
                                 </div>
 
-                                <div id="center-div"
-                                    class="rounded d-flex align-items-center justify-content-center w-25"
-                                    style="width: 30px; height: 30px;">
-                                    <h6 class="text-muted">Posts</h6>
-                                </div>
                             </div>
                         </div>
 
                         <div class="col-lg-4 col-md-4">
-                            <div class="d-flex justify-content-end align-items-end">
+                            <div class="d-flex justify-content-end align-items-end me-2">
                                 <button type="button" class="btn btn-light btn-sm fw-bold border-0"><i
                                         class="bi bi-three-dots"></i></button>
                             </div>
                         </div>
 
                     </div>
+                    
                 </div>
             </div>
         </div>
