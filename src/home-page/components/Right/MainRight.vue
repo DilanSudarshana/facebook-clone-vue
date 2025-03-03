@@ -1,6 +1,6 @@
 <template>
 
-    <div id="main-right" class="col-md-4 bg-light mt-2  d-none d-lg-block rounded overflow-auto">
+    <div id="main-right" class="col-md-4 col-lg-3 bg-light mt-2  d-none d-lg-block rounded overflow-auto">
         <ContactList></ContactList>
         <GroupChat></GroupChat>
     </div>
