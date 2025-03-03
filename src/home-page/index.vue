@@ -2,15 +2,15 @@
 
     <div id="main-content">
         <div class="container">
-            
+
             <div class="row sticky-top">
                 <Navbar></Navbar>
             </div>
 
             <div class="row">
-                <MainLeft></MainLeft>
-                <MainMiddle></MainMiddle>
-                <MainRight></MainRight>
+                <MainLeft style="position: sticky;top: 0;"></MainLeft>
+                <MainMiddle style="overflow-y: auto;"></MainMiddle>
+                <MainRight style="position: sticky;top: 0;"></MainRight>
             </div>
         </div>
     </div>
