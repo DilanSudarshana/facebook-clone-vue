@@ -2,7 +2,7 @@
 
     <body class="d-flex justify-content-center align-items-start vh-150 bg-light mb-5">
 
-        <div class="container ">
+        <div class="container pb-5">
 
             <div class="row mt-3">
 
@@ -43,38 +43,45 @@
 
                                 <div class="row pb-2">
                                     <p class="text-muted fs-6 ms-1">Date of birth</p>
-
                                     <div class="col-lg-4 col-md-6 mb-1">
                                         <div class="d-flex justify-content-center align-items-center">
-                                            <input type="text" id="form1Example1" class="form-control"
-                                                placeholder="01" />
+                                            <input type="number" id="dayInput" class="form-control" placeholder="DD"
+                                                min="1" max="31" />
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 mb-1">
-                                        <input type="email" id="form1Example1" class="form-control" placeholder="Mar" />
+                                        <input type="number" id="monthInput" class="form-control" placeholder="MM"
+                                            min="1" max="12" />
                                     </div>
                                     <div class="col-lg-4 col-md-6 mb-1">
-                                        <input type="email" id="form1Example1" class="form-control"
-                                            placeholder="2025" />
+                                        <input type="number" id="yearInput" class="form-control" placeholder="YYYY"
+                                            min="1900" max="9999" />
                                     </div>
                                 </div>
 
                                 <div class="row pb-2">
                                     <p class="text-muted fs-6 ms-1">Gender</p>
 
-                                    <div class="col-lg-4 col-md-6 mb-1">
-                                        <div class="d-flex justify-content-center align-items-center">
-                                            <input type="email" id="form1Example1" class="form-control"
-                                                placeholder="Female" />
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <div class="d-flex justify-content-start align-items-center">
+                                            <input type="radio" id="female" name="gender" value="female"
+                                                class="form-check-input" />
+                                            <label for="female" class="form-check-label ms-2">Female</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 mb-1">
-                                        <input type="email" id="form1Example1" class="form-control"
-                                            placeholder="Male" />
+                                        <div class="d-flex justify-content-start align-items-center">
+                                            <input type="radio" id="male" name="gender" value="male"
+                                                class="form-check-input" />
+                                            <label for="male" class="form-check-label ms-2">Male</label>
+                                        </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 mb-1">
-                                        <input type="email" id="form1Example1" class="form-control"
-                                            placeholder="Custom" />
+                                        <div class="d-flex justify-content-start align-items-center">
+                                            <input type="radio" id="custom" name="gender" value="custom"
+                                                class="form-check-input" />
+                                            <label for="custom" class="form-check-label ms-2">Custom</label>
+                                        </div>
                                     </div>
                                 </div>
 
