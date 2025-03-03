@@ -2,7 +2,7 @@
 
     <div id="main-content">
         <div class="container">
-            
+
             <div class="row sticky-top">
                 <Navbar></Navbar>
             </div>
@@ -12,8 +12,11 @@
                 <ProfileDetails></ProfileDetails>
             </div>
 
-            <div class="row mt-5">
-               
+        </div>
+
+        <div class="container">
+            <div class="row mt-3">
+                <ProfileIntro></ProfileIntro>
             </div>
         </div>
     </div>
@@ -23,6 +26,7 @@
 import Navbar from '../includes/navbar/navbar.vue'
 import ProfileHero from './components/ProfileHero.vue'
 import ProfileDetails from './components/ProfileDetails.vue'
+import ProfileIntro from './components/ProfileIntro.vue'
 
 export default {
     name: 'ProfileMain',
@@ -31,6 +35,7 @@ export default {
         Navbar,
         ProfileHero,
         ProfileDetails,
+        ProfileIntro,
     }
 
 }
@@ -40,7 +45,8 @@ export default {
 #main-content {
     background-color: #f0f0f0;
 }
-#hero-section{
+
+#hero-section {
     background-color: #ffff;
 }
 </style>
