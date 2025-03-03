@@ -19,6 +19,7 @@
                 <ProfileIntro></ProfileIntro>
             </div>
         </div>
+
     </div>
 </template>
 

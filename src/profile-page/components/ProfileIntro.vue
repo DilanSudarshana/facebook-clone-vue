@@ -1,6 +1,6 @@
 <template>
 
-    <div class="col-lg-4 col-md-12 rounded mb-5 p-2 bg-light">
+    <div class="col-lg-4 col-md-12 rounded mb-5 p-2 bg-light" style="height: 75vh;">
 
         <div class=" d-flex justify-content-start align-items-center ">
 

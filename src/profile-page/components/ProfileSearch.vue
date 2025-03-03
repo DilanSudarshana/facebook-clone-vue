@@ -1,6 +1,7 @@
 <template>
 
     <div class="col-lg-8 col-md-12">
+
         <div class="d-flex flex-row justify-content-center align-items-start bg-light rounded" style="height: 18vh;">
             <div class="container">
 
@@ -58,16 +59,28 @@
 
         </div>
 
+        <ProfilePostDetails></ProfilePostDetails>
+
+        <ProfilePost></ProfilePost>
+
+
+
     </div>
+
 
 </template>
 
 
 <script>
-
+import ProfilePostDetails from './ProfilePostDetails.vue';
+import ProfilePost from './ProfilePost.vue';
 
 export default {
-    name: 'ProfileSearch'
+    name: 'ProfileSearch',
+    components: {
+        ProfilePostDetails,
+        ProfilePost,
+    }
 }
 
 </script>
