@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-light rounded mt-2 p-2 " style="height: 60vh;">
+    <div class="bg-light rounded mt-2 p-2 ">
 
         <div class=" d-flex  justify-content-between align-items-start p-1">
             <h5 class="text-muted">Photos</h5>
@@ -9,67 +9,55 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-4 col-md-4 mb-1">
-                    <div class="d-flex rounded p-0 bg-dark" style="height: 15vh;width: 15vh;">
-                        <img src="" alt="">
-                        1
+                <div class="col-lg-12 col-md-12 mb-1">
+                    <div class="d-flex justify-content-between">
+
+                        <div class="d-flex bg-primary" style="height: 15vh;width: 15vh;">
+                            <img src="" alt="">
+                        </div>
+
+                        <div class="d-flex bg-primary" style="height: 15vh;width: 15vh;">
+                            <img src="" alt="">
+                        </div>
+                        <div class="d-flex bg-primary" style="height: 15vh;width: 15vh;">
+                            <img src="" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 mb-1">
-                    <div class="d-flex rounded p-0 bg-dark" style="height: 15vh;width: 15vh;">
-                        <img src="" alt="">
-                        1
+
+                <div class="col-lg-12 col-md-12 mb-1">
+                    <div class="d-flex justify-content-between">
+
+                        <div class="d-flex bg-primary" style="height: 15vh;width: 15vh;">
+                            <img src="" alt="">
+                        </div>
+
+                        <div class="d-flex bg-primary" style="height: 15vh;width: 15vh;">
+                            <img src="" alt="">
+                        </div>
+                        <div class="d-flex bg-primary" style="height: 15vh;width: 15vh;">
+                            <img src="" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 mb-1">
-                    <div class="d-flex rounded p-0 bg-dark" style="height: 15vh;width: 15vh;">
-                        <img src="" alt="">
-                        1
+
+                <div class="col-lg-12 col-md-12 mb-1">
+                    <div class="d-flex justify-content-between">
+
+                        <div class="d-flex bg-primary" style="height: 15vh;width: 15vh;">
+                            <img src="" alt="">
+                        </div>
+
+                        <div class="d-flex bg-primary" style="height: 15vh;width: 15vh;">
+                            <img src="" alt="">
+                        </div>
+                        <div class="d-flex bg-primary" style="height: 15vh;width: 15vh;">
+                            <img src="" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-lg-4 col-md-4 mb-1">
-                    <div class="d-flex rounded p-0 bg-dark" style="height: 15vh;width: 15vh;overflow:auto;">
-                        <img src="" alt="">
-                        1
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 mb-1">
-                    <div class="d-flex rounded p-0 bg-dark" style="height: 15vh;width: 15vh;">
-                        <img src="" alt="">
-                        1
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 mb-1">
-                    <div class="d-flex rounded p-0 bg-dark" style="height: 15vh;width: 15vh;">
-                        <img src="" alt="">
-                        1
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4 mb-1">
-                    <div class="d-flex rounded p-0 bg-dark" style="height: 15vh;width: 15vh;">
-                        <img src="" alt="">
-                        1
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 mb-1">
-                    <div class="d-flex rounded p-0 bg-dark" style="height: 15vh;width: 15vh;">
-                        <img src="" alt="">
-                        1
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 mb-1">
-                    <div class="d-flex rounded p-0 bg-dark" style="height: 15vh;width: 15vh;">
-                        <img src="" alt="">
-                        1
-                    </div>
-                </div>
-            </div>
 
         </div>
 
