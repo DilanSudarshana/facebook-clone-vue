@@ -1,6 +1,7 @@
 import Index from "./home-page/index.vue"
 import LoginMain from "./login-page/LoginMain.vue"
 import ProfileMain from "./profile-page/ProfileMain.vue"
+import SignUpMain from "./signup-page/SignUpMain.vue"
 
 import {
     createRouter,
@@ -22,6 +23,12 @@ const routes = [{
         component: ProfileMain,
         path: '/profile'
     },
+    {
+        name: 'SignUpMain',
+        component: SignUpMain,
+        path: '/sign-up'
+    },
+
 ];
 const router = createRouter({
     history: createWebHistory(),

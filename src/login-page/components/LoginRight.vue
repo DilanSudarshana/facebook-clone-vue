@@ -30,7 +30,9 @@
                 <div class="d-flex justify-content-center align-items-center pb-3 pt-3">
                     <button id="create-button" data-mdb-ripple-init type="submit"
                         class="btn btn-success btn-block w-50">
-                        <h6 class="text-light fw-bold">Create new account</h6>
+                        <router-link to="/sign-up" style="text-decoration: none;color: black;">
+                            <h6 class="text-light fw-bold">Create new account</h6>
+                        </router-link>
                     </button>
                 </div>
             </form>
