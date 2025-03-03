@@ -6,7 +6,7 @@
                 <div class="h-100 d-flex flex-row justify-content-center align-items-start mt-2">
                     <div class="rounded-circle me-2"
                         style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
-                        <img src="/src/assets/images/pro-pic.jpg" style="width: 30px; height: 30px;border-radius: 100px;" alt="">
+                        <img src="/src/assets/images/pro-pic-02.svg" style="width: 30px; height: 30px;border-radius: 100px;" alt="">
                     </div>
                     <div>
                         <input type="text" class="form-control rounded-pill" placeholder="Whats on your mind Dilan?"

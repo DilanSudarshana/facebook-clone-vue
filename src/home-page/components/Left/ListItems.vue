@@ -2,16 +2,19 @@
 
     <div class="h-100 d-flex flex-column justify-content-start align-items-start mt-1">
 
-        <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded mt-2 p-1" id="contact-item">
-            <div class="rounded-circle me-2"
-                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
-                <img src="/src/assets/images/pro-pic.jpg" style="width: 30px; height: 30px;border-radius: 100px;"
-                    alt="">
+        <router-link to="/profile" style="text-decoration: none;color: black;">
+            <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded mt-2 p-1"
+                id="contact-item">
+                <div class="rounded-circle me-2"
+                    style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+                    <img src="/src/assets/images/pro-pic-02.svg" style="width: 30px; height: 30px;border-radius: 100px;"
+                        alt="">
+                </div>
+                <div class="fw-bold">
+                    <p class="text-start fs-6">Dilan Sudarshana</p>
+                </div>
             </div>
-            <div class="fw-bold">
-                <p class="text-start fs-6">Dilan Sudarshana</p>
-            </div>
-        </div>
+        </router-link>
 
         <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
             <div id="center-div" class="rounded d-flex align-items-center justify-content-center"
@@ -115,7 +118,7 @@
             <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
                 <div class="rounded-circle me-2"
                     style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
-                    <img src="/src/assets/images/pro-pic.jpg" style="width: 30px; height: 30px;border-radius: 100px;"
+                    <img src="/src/assets/images/pro-pic-02.svg" style="width: 30px; height: 30px;border-radius: 100px;"
                         alt="">
                 </div>
                 <div class="mt-1">
@@ -126,7 +129,7 @@
             <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
                 <div class="rounded-circle me-2"
                     style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
-                    <img src="/src/assets/images/pro-pic.jpg" style="width: 30px; height: 30px;border-radius: 100px;"
+                    <img src="/src/assets/images/pro-pic-02.svg" style="width: 30px; height: 30px;border-radius: 100px;"
                         alt="">
                 </div>
                 <div class="mt-1">
@@ -137,7 +140,7 @@
             <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
                 <div class="rounded-circle me-2"
                     style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
-                    <img src="/src/assets/images/pro-pic.jpg" style="width: 30px; height: 30px;border-radius: 100px;"
+                    <img src="/src/assets/images/pro-pic-02.svg" style="width: 30px; height: 30px;border-radius: 100px;"
                         alt="">
                 </div>
                 <div class="mt-1">
@@ -148,7 +151,7 @@
             <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
                 <div class="rounded-circle me-2"
                     style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
-                    <img src="/src/assets/images/pro-pic.jpg" style="width: 30px; height: 30px;border-radius: 100px;"
+                    <img src="/src/assets/images/pro-pic-02.svg" style="width: 30px; height: 30px;border-radius: 100px;"
                         alt="">
                 </div>
                 <div class="mt-1">
@@ -159,7 +162,7 @@
             <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
                 <div class="rounded-circle me-2"
                     style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
-                    <img src="/src/assets/images/pro-pic.jpg" style="width: 30px; height: 30px;border-radius: 100px;"
+                    <img src="/src/assets/images/pro-pic-02.svg" style="width: 30px; height: 30px;border-radius: 100px;"
                         alt="">
                 </div>
                 <div class="mt-1">

@@ -1,6 +1,7 @@
 <template>
 
-    <div class="container p-2 bg-light shadow-sm">
+
+    <div class="container p-2 bg-light shadow-sm ">
         <div class="row gx-3 d-flex flex-wrap">
 
             <div class="col-6 col-md-6 col-lg-4">
@@ -17,6 +18,7 @@
 
         </div>
     </div>
+
 
 
 
@@ -38,3 +40,9 @@ export default {
     },
 }
 </script>
+
+<style>
+#navbar {
+    position: sticky;
+}
+</style>
