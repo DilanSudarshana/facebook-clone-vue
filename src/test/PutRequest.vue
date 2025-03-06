@@ -15,7 +15,7 @@
                             <input type="email" v-model="email" placeholder="Enter Email">
                         </div>
                         <div>
-                            <button v-on:click="updateUser()" style="margin-top: 20px;">Update User</button>
+                            <button class="btn btn-success" v-on:click="updateUser()" style="margin-top: 20px;">Update User</button>
                         </div>
                     </div>
                 </div>
@@ -56,13 +56,20 @@ export default {
             })
                 .then(response => {
                     console.log(`Updated post with ID ${id}`);
+
+                    this.name = ""
+                    this.email = ""
                 })
                 .catch(error => {
                     console.error(error);
+
+                    this.name = ""
+                    this.email = ""
                 });
             console.log(id)
 
         }
+
     },
 }
 </script>

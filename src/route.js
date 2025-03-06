@@ -34,7 +34,7 @@ const routes = [{
     {
         name: 'TestAPI',
         component: TestAPI,
-        path: '/test-api'
+        path: '/get-user'
     },
     {
         name: 'PostRequest',

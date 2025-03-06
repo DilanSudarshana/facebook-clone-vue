@@ -52,6 +52,9 @@ export default {
             )
             if (result == 200) {
                 console.log('data inserted')
+
+                this.name = ""
+                this.email = ""
             }
         }
     },

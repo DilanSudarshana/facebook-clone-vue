@@ -3,10 +3,17 @@
         <h5 class="text-center text-muted mt-2">Test API</h5>
     </div>
 
+
     <div class="container mt-5">
         <div class="row">
+            <div class="d-flex justify-content-center align-item-center mt-5 mb-5">
+                <router-link to="/create-user"> <button class="btn btn-success">Create user</button></router-link>
+            </div>
+
             <div class="col-lg-12">
                 <div class="d-flex justify-content-center align-item-center">
+
+
 
                     <table class="table w-50">
                         <thead>
