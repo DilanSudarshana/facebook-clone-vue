@@ -218,14 +218,24 @@ export default {
                 this.first_name = ""
                 this.last_name = ""
                 this.year = ""
+                this.date = ""
+                this.month = ""
                 this.gender = ""
                 this.mobile_or_email = ""
                 this.password = ""
 
+                localStorage.setItem("user-info", JSON.stringify(result.data))
+                this.$router.push({ name: 'ProfileMain' })
             }
         }
-
     },
+
+    mounted() {
+        let user = localStorage.getItem('user-info');
+        if (user) {
+            this.$router.push({ name: 'ProfileMain' })
+        }
+    }
 }
 </script>
 <style></style>

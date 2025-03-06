@@ -2,10 +2,13 @@
 
     <div class="h-100 d-flex justify-content-between align-items-center mx-5">
 
+
         <div id="center-div" class="rounded d-flex align-items-center justify-content-center w-25"
             style="width: 30px; height: 30px;">
-            <i id="icon-middle" class="bi bi-house-door-fill fs-5"></i>
+            <router-link to="/" style="text-decoration: none;color: black;"><i id="icon-middle"
+                    class="bi bi-house-door-fill fs-5"></i></router-link>
         </div>
+
 
         <div id="center-div" class="rounded d-flex align-items-center justify-content-center w-25"
             style="width: 30px; height: 30px;">
@@ -16,6 +19,7 @@
             style="width: 30px; height: 30px;">
             <i id="icon-middle" class="bi bi-camera-reels-fill fs-5"></i>
         </div>
+
 
         <div id="center-div" class="rounded d-flex align-items-center justify-content-center w-25"
             style="width: 30px; height: 30px;">
@@ -43,10 +47,11 @@ export default {
     background-color: #efefef;
 }
 
-#icon-middle{
+#icon-middle {
     transition: background-color 0.3s ease-in-out;
 }
-#icon-middle:hover{
+
+#icon-middle:hover {
     color: #2b35f3;
 }
 </style>

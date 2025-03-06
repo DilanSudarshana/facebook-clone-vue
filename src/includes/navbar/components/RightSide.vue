@@ -7,11 +7,12 @@
         <ChatBox></ChatBox>
 
         <NotificationBox></NotificationBox>
-        
+
 
         <div id="right-item" class="rounded-circle me-1 d-flex shadow-sm justify-content-center align-items-center"
             data-bs-toggle="tooltip" data-bs-placement="bottom" title="Account" style="width: 30px; height: 30px;">
-            <i class="bi bi-person-circle fs-5"></i>
+            <router-link to="/profile" style="text-decoration: none;color: black;"><i
+                    class="bi bi-person-circle fs-5"></i></router-link>
         </div>
 
     </div>
