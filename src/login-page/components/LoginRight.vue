@@ -6,17 +6,15 @@
 
             <form>
                 <div data-mdb-input-init class="form-outline mb-2">
-                    <input type="email" id="form1Example1" class="form-control" />
+                    <input type="email" v-model="email" class="form-control" placeholder="Enter Email" />
                 </div>
 
                 <div data-mdb-input-init class="form-outline mb-2">
-                    <input type="password" id="form1Example2" class="form-control" />
+                    <input type="password" v-model="password" class="form-control" placeholder="Enter Password" />
                 </div>
 
-                <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block w-100 mt-4">
-                    <router-link to="/">
-                        <h5 class="text-light fw-bold">Log in</h5>
-                    </router-link>
+                <button data-mdb-ripple-init v-on:click="login" class="btn btn-primary btn-block w-100 mt-4">
+                    <h5 class="text-light fw-bold">Log in</h5>
                 </button>
 
                 <div class="row mb-4 mt-3">
@@ -52,7 +50,35 @@
 <script>
 
 export default {
-    name: 'LoginRight'
+    name: 'LoginRight',
+
+    data() {
+        return {
+            email: '',
+            password: ''
+        }
+    },
+
+    methods: {
+        async login() {
+            let result = await axios.post('http://localhost/facebook/user/login', {
+                email: this.email,
+                password: this.password,
+            }, {
+                headers: {
+                    'Content-Type': 'multipart/form-data'
+                }
+            }
+            )
+            if (result == 200) {
+                console.log('data inserted')
+
+                this.name = ""
+                this.email = ""
+            }
+        }
+    }
+
 }
 </script>
 
