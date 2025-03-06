@@ -23,7 +23,13 @@
                                 <td>{{ item.id }}</td>
                                 <td>{{ item.name }}</td>
                                 <td>{{ item.email }}</td>
-                                <td><button v-on:click="deleteUser(item.id)">Delete</button></td>
+                                <td>
+                                    <div class="d-flex">
+                                        <router-link :to="'/update-user/' + item.id"><button
+                                                class="btn btn-warning me-2">Update</button></router-link>
+                                        <button class="btn btn-primary" v-on:click="deleteUser(item.id)">Delete</button>
+                                    </div>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -46,9 +52,9 @@ export default {
     methods: {
 
         async deleteUser(id) {
-            
-            axios.delete(`http://localhost/sample-project/api/user/delete/${id}`,{
-                withCredentials:false,
+
+            axios.delete(`http://localhost/sample-project/api/user/delete/${id}`, {
+                withCredentials: false,
                 headers: {
                     "Content-Type": "application/json",
                     Accept: "application/json",
@@ -68,7 +74,7 @@ export default {
     async mounted() {
         let result = await axios.get('http://localhost/sample-project/api/user');
         this.users = result.data;
-        console.log(result)
+        // console.log(result)
     }
 }
 </script>

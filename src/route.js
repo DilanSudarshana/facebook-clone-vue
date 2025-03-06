@@ -44,7 +44,7 @@ const routes = [{
     {
         name: 'PutRequest',
         component: PutRequest,
-        path: '/update-user'
+        path: '/update-user/:id'
     }
 
 ];

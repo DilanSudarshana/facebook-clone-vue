@@ -15,7 +15,7 @@
                             <input type="email" v-model="email" placeholder="Enter Email">
                         </div>
                         <div>
-                            <button v-on:click="updateUser(51)" style="margin-top: 20px;">Update User</button>
+                            <button v-on:click="updateUser()" style="margin-top: 20px;">Update User</button>
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,10 @@ export default {
 
     methods: {
 
-        async updateUser(id) {
+        async updateUser() {
+
+            //get url id as id
+            let id = this.$route.params.id
 
             axios.put(`http://localhost/sample-project/api/user/update/${id}`, {
                 withCredentials: false,
