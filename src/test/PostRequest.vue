@@ -16,7 +16,7 @@
                             <input type="email" v-model="email" placeholder="Enter Email">
                         </div>
                         <div>
-                            <button v-on:click="createUser" style="margin-top: 20px;">Sign Up</button>
+                            <button v-on:click="createUser" style="margin-top: 20px;">Create User</button>
                         </div>
                     </div>
 

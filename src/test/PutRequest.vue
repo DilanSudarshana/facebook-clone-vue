@@ -15,7 +15,7 @@
                             <input type="email" v-model="email" placeholder="Enter Email">
                         </div>
                         <div>
-                            <button v-on:click="updateUser(50)" style="margin-top: 20px;">Update User</button>
+                            <button v-on:click="updateUser(51)" style="margin-top: 20px;">Update User</button>
                         </div>
                     </div>
                 </div>
@@ -38,28 +38,27 @@ export default {
     },
 
     methods: {
+
         async updateUser(id) {
-            if (!this.name || !this.email) {
-                alert("Both name and email are required.");
-                return;
-            }
 
-            try {
-                let result = await axios.put(`http://localhost/crud-api/api/user/update/${id}`, {
-                    name: this.name,
-                    email: this.email,
-                }, {
-                    headers: {
-                        'Content-Type': 'application/json'
-                    }
+            axios.put(`http://localhost/sample-project/api/user/update/${id}`, {
+                withCredentials: false,
+                headers: {
+                    "Content-Type": "application/json",
+                    Accept: "application/json",
+                },
+
+                name: this.name,
+                email: this.email,
+            })
+                .then(response => {
+                    console.log(`Updated post with ID ${id}`);
+                })
+                .catch(error => {
+                    console.error(error);
                 });
+            console.log(id)
 
-                if (result.status === 200) {
-                    console.log('data inserted');
-                }
-            } catch (error) {
-                console.error('Error updating user:', error);
-            }
         }
     },
 }
