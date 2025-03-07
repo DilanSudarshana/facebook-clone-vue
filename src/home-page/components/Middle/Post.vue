@@ -1,6 +1,6 @@
 <template>
 
-    <div v-for="post in posts" :key="post.id"  class="container rounded bg-light mt-2 mb-3">
+    <div v-for="post in posts" :key="post.id" class="container rounded bg-light mt-2 mb-3">
 
         <div class="row p-2">
             <div class=" d-flex justify-content-between align-items-start">

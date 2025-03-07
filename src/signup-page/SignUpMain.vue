@@ -225,7 +225,7 @@ export default {
                 this.password = ""
 
                 localStorage.setItem("user-info", JSON.stringify(result.data))
-                this.$router.push({ name: 'ProfileMain' })
+                this.$router.push({ name: 'Index' })
             }
         }
     },
@@ -233,7 +233,7 @@ export default {
     mounted() {
         let user = localStorage.getItem('user-info');
         if (user) {
-            this.$router.push({ name: 'ProfileMain' })
+            this.$router.push({ name: 'Index' })
         }
     }
 }
