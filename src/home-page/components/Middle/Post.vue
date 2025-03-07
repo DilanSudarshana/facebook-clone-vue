@@ -1,6 +1,6 @@
 <template>
 
-    <div v-for="item in posts" :key="item.id" style="height: 65vh;" class="container rounded bg-light mt-2 mb-3">
+    <div v-for="post in posts" :key="post.id"  class="container rounded bg-light mt-2 mb-3">
 
         <div class="row p-2">
             <div class=" d-flex justify-content-between align-items-start">
@@ -11,7 +11,7 @@
                             style="width: 30px; height: 30px;border-radius: 100px;" alt="">
                     </div>
                     <div>
-                        <p id="head-text" class="fw-bold">{{ item.user_name }} <br> {{ item.date }} <i
+                        <p id="head-text" class="fw-bold">{{ post.user_id }} <br> {{ post.created_at }} <i
                                 class="bi bi-globe"></i></p>
 
                     </div>
@@ -21,14 +21,18 @@
                         <i class="bi bi-three-dots"></i>
                     </div>
                     <div>
-                        <i class="bi bi-x-lg"></i>
+                        <i class="bi bi-x-lg" v-on:click="deletePost(post.id)"></i>
                     </div>
                 </div>
             </div>
         </div>
 
+        <div id="post-image" class="row pt-0 p-2">
+            <p class="fs-6">{{ post.description }}</p>
+        </div>
+
         <div id="post-image" class="row pt-0 p-2" style="height: 40vh;">
-            <img style="height: 40vh;" :src="item.image" alt="">
+            <img style="height: 40vh;" :src="post.image" alt="">
         </div>
 
         <div class="row p-2">
@@ -37,16 +41,16 @@
 
                     <div class="me-1">
                         <p style="font-size: small;"><i class="bi bi-hand-thumbs-up-fill text-primary"></i> {{
-                            item.like_count }}</p>
+                            post.like_count }}</p>
                     </div>
 
                 </div>
                 <div class="d-flex justify-content-start align-items-end ">
                     <div class="me-2">
-                        <p style="font-size: small;">{{ item.comment_count }} <i class="bi bi-chat-fill"></i></p>
+                        <p style="font-size: small;">{{ post.comment_count }} <i class="bi bi-chat-fill"></i></p>
                     </div>
                     <div>
-                        <p style="font-size: small;">{{ item.shair_count }} <i class="bi bi-send-fill"></i></p>
+                        <p style="font-size: small;">{{ post.shair_count }} <i class="bi bi-send-fill"></i></p>
                     </div>
                 </div>
             </div>
@@ -86,13 +90,27 @@ export default {
     },
 
     methods: {
-        async likePost(id) {
-            console.log(id)
+        async deletePost(id) {
+
+            // console.log(`Deleting post with ID ${id}`);
+            axios.delete(`http://localhost/facebook/index/delete/${id}`, {
+                withCredentials: false,
+                headers: {
+                    "Content-Type": "application/json",
+                    Accept: "application/json",
+                },
+            })
+                .then(response => {
+                    console.log(`Deleted post with ID ${id}`);
+                })
+                .catch(error => {
+                    console.error(error);
+                });
         }
     },
 
     async mounted() {
-        let result = await axios.get('http://localhost:3000/posts');
+        let result = await axios.get('http://localhost/facebook/index');
         this.posts = result.data;
         console.log(this.posts)
     }
