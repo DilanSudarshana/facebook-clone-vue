@@ -7,12 +7,11 @@
                 <div class="d-flex justify-content-start align-items-start">
                     <div class="rounded-circle me-3"
                         style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
-                        <img src="/src/assets/images/pro-pic-02.svg"
-                            style="width: 30px; height: 30px;border-radius: 100px;" alt="">
+                        <img :src="post.user_image" style="width: 30px; height: 30px;border-radius: 100px;" alt="">
                     </div>
                     <div>
-                        <p id="head-text" class="fw-bold">{{ post.user_id }} <br> {{ post.created_at }} <i
-                                class="bi bi-globe"></i></p>
+                        <p id="head-text" class="fw-bold">{{ post.first_name }} &nbsp;{{ post.last_name }} <br> {{
+                            post.created_at }} &nbsp;<i class="bi bi-globe"></i></p>
 
                     </div>
                 </div>
@@ -106,13 +105,17 @@ export default {
                 .catch(error => {
                     console.error(error);
                 });
+        },
+
+        async getStatus() {
+            let result = await axios.get('http://localhost/facebook/index');
+            this.posts = result.data;
+            console.log(this.posts)
         }
     },
 
-    async mounted() {
-        let result = await axios.get('http://localhost/facebook/index');
-        this.posts = result.data;
-        console.log(this.posts)
+    mounted() {
+        this.getStatus();
     }
 
 }

@@ -22,9 +22,9 @@ const routes = [{
         path: '/login'
     },
     {
-        name: 'ProfileMain',
+        name:'ProfileMain',
         component: ProfileMain,
-        path: '/profile'
+        path: '/profile/:id'
     },
     {
         name: 'SignUpMain',
