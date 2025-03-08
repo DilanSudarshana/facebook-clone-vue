@@ -2,8 +2,8 @@
     <div class="container">
 
         <div class="row">
-
-            <div id="footer" class="col-lg-12 col-md-12 mt-4">
+ 
+            <div id="footer" class="col-lg-12 col-md-12">
                 <p id="footer-para">English (UK) සිංහල தமிழ்
                     Español
                     Deutsch
@@ -39,6 +39,7 @@ export default {
 </script>
 <style>
 #footer {
+    
     background-color: #ffffff;
 }
 

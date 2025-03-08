@@ -4,36 +4,33 @@
 
         <div id="login-form" class="p-3 rounded shadow bg-light">
 
-            <form>
-                <div data-mdb-input-init class="form-outline mb-2">
-                    <input type="email" id="form1Example1" class="form-control" />
-                </div>
+            <div class="form-outline mb-2">
+                <input type="email" v-model="email" class="form-control" placeholder="Enter Email" />
+            </div>
 
-                <div data-mdb-input-init class="form-outline mb-2">
-                    <input type="password" id="form1Example2" class="form-control" />
-                </div>
+            <div class="form-outline mb-2">
+                <input type="password" v-model="password" class="form-control" placeholder="Enter Password" />
+            </div>
 
-                <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block w-100 mt-4">
-                    <router-link to="/">
-                        <h5 class="text-light fw-bold">Log in</h5>
+            <button v-on:click="login" class="btn btn-primary btn-block w-100 mt-4">
+                <h5 class="text-light fw-bold">Log in</h5>
+            </button>
+
+            <div class="row mb-4 mt-3">
+                <div class="col text-center mt-2">
+                    <a href="#!">Forgot password?</a>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="d-flex justify-content-center align-items-center pb-3 pt-3">
+                <button id="create-button" data-mdb-ripple-init type="submit" class="btn btn-success btn-block w-50">
+                    <router-link to="/sign-up" style="text-decoration: none;color: black;">
+                        <h6 class="text-light fw-bold">Create new account</h6>
                     </router-link>
                 </button>
-
-                <div class="row mb-4 mt-3">
-                    <div class="col text-center mt-2">
-                        <a href="#!">Forgot password?</a>
-                    </div>
-                </div>
-
-                <hr>
-
-                <div class="d-flex justify-content-center align-items-center pb-3 pt-3">
-                    <button id="create-button" data-mdb-ripple-init type="submit"
-                        class="btn btn-success btn-block w-50">
-                        <h6 class="text-light fw-bold">Create new account</h6>
-                    </button>
-                </div>
-            </form>
+            </div>
 
         </div>
 
@@ -48,9 +45,46 @@
 </template>
 
 <script>
+import axios from 'axios';
 
 export default {
-    name: 'LoginRight'
+    name: 'LoginRight',
+
+    data() {
+        return {
+            email: '',
+            password: ''
+        }
+    },
+
+    methods: {
+
+        async login() {
+            await axios.post(`http://localhost/facebook/user/login`, {
+                withCredentials: true,
+                headers: {
+                    "Content-Type": "application/json",
+                    Accept: "application/json",
+                },
+                name: this.password,
+                email: this.email,
+            })
+                .then(response => {
+                    console.log(`login response success`);
+                    this.password = ""
+                    this.email = ""
+                })
+                .catch(error => {
+                    console.error(error);
+
+                    this.password = ""
+                    this.email = ""
+                });
+
+        }
+
+    }
+
 }
 </script>
 

@@ -11,13 +11,13 @@
                             <div class="d-flex justify-content-start align-items-center">
                                 <div class="rounded-circle me-3 my-2"
                                     style="width: 30vh; height: 30vh; overflow: hidden; background-color: #f0f0f0;">
-                                    <img src="/src/assets/images/pro-pic-02.svg" style="width: 30vh; height: 30vh;"
+                                    <img :src="profile.image" style="width: 30vh; height: 30vh;"
                                         alt="">
                                 </div>
 
                                 <div class="text-strat">
-                                    <h2 class="fw-bold mb-2">Dilan Sudarshana</h2>
-                                    <p style="font-size: larger;" class="m-0">Dila</p>
+                                    <h2 class="fw-bold mb-2">{{ profile.first_name }} {{ profile.last_name }}</h2>
+                                    <p style="font-size: larger;" class="m-0">{{ profile.first_name }}</p>
                                     <h5 class="text-muted m-0">2.8K friends</h5>
 
                                     <div class="d-flex justify-content-start align-items-start mt-2">
@@ -146,12 +146,34 @@
 
 <script>
 import ProfileIntro from './ProfileIntro.vue';
+import axios from 'axios';
 
 export default {
     name: 'ProfileDetails',
 
     components: {
         ProfileIntro,
+    },
+
+    data() {
+        return {
+            profile: [],
+        }
+    },
+
+    methods: {
+        async getUsers() {
+            let id = this.$route.params.id
+            let result = await axios.get('http://localhost/facebook/user/' + id);
+            console.log(result.data);
+            this.profile = result.data;
+
+            // let result = await axios.get('http://localhost/facebook/user');
+            // this.users = result.data;
+        }
+    },
+    mounted() {
+        this.getUsers();
     }
 }
 </script>

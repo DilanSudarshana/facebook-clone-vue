@@ -1,33 +1,55 @@
 <template>
-    <div class="bg-light p-2 d-flex justify-content-between  align-items-center mt-2 rounded">
+    <div class="bg-light p-2 d-flex justify-content-between  align-items-center mt-2 rounded shadow">
         <div id="row" class="row overflow-x-scroll d-flex flex-nowrap flex-row overflow-hidden mx-1">
 
-            <div class="card m-2" style="width: 9rem;height: 12rem;">
-
+            <div v-for="item in status" :key="item.id" class="card m-2 p-0" style="width: 9rem; height: 12rem;">
+                <div :style="{ backgroundImage: 'url(' + item.image + ')', backgroundSize: 'cover', backgroundPosition: 'center', height: '10rem' }"
+                    class="card-img-top  shadow-lg"></div>
+                <div class="bg-light pb-1">
+                    <p class="card-title text-center rounded fs-7 fw-bold">{{ item.first_name }}</p>
+                </div>
             </div>
 
-            <div class="card m-2" style="width: 9rem;height: 12rem;">
-
-            </div>
-
-            <div class="card m-2" style="width: 9rem;height: 12rem;">
-
-            </div>
-
-            <div class="card m-2" style="width: 9rem;height: 12rem;">
-
-            </div>
         </div>
 
     </div>
 </template>
 
 <script>
+import axios from 'axios';
+
+
 export default {
     name: 'StoryBar',
 
+    data() {
+        return {
+            status: [],
+        }
+    },
+
+    methods: {
+        async getStatus() {
+            let result = await axios.get('http://localhost/facebook/status');
+            this.status = result.data;
+        }
+    },
+
+    mounted() {
+        this.getStatus();
+    }
+
 }
+
+
+
+
+
+
+
 </script>
+
+
 
 <style>
 .row::-webkit-scrollbar {

@@ -1,6 +1,6 @@
 <template>
     <div class="col-lg-6 col-md-12 mt-2 g-5">
-        <SearchBar></SearchBar>
+        <CreatePost></CreatePost>
         <StoryBar></StoryBar>
         <Post></Post>
     </div>
@@ -10,6 +10,9 @@
 import Post from './Post.vue';
 import SearchBar from './SearchBar.vue';
 import StoryBar from './StoryBar.vue';
+import CreatePost from './CreatePost.vue';
+
+
 export default {
     name: 'MainMiddle',
 
@@ -17,6 +20,7 @@ export default {
         SearchBar,
         StoryBar,
         Post,
+        CreatePost,
     }
 
 }
