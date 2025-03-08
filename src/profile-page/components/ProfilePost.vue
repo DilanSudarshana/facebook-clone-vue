@@ -80,9 +80,29 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 
 export default {
     name: 'ProfilePost',
+
+    data() {
+        return {
+            profile: [],
+        }
+    },
+
+    methods: {
+        async getPost() {
+            let id = this.$route.params.id
+            let result = await axios.get('http://localhost/facebook/posts/' + id);
+            console.log(result.data);
+            this.profile = result.data;
+        }
+    },
+    mounted() {
+        this.getPost();
+    }
 
 }
 </script>

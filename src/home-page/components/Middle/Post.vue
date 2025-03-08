@@ -93,7 +93,7 @@ export default {
         async deletePost(id) {
 
             // console.log(`Deleting post with ID ${id}`);
-            axios.delete(`http://localhost/facebook/index/delete/${id}`, {
+            axios.delete(`http://localhost/facebook/posts/delete/${id}`, {
                 withCredentials: false,
                 headers: {
                     "Content-Type": "application/json",
@@ -109,7 +109,7 @@ export default {
         },
 
         async getStatus() {
-            let result = await axios.get('http://localhost/facebook/index');
+            let result = await axios.get('http://localhost/facebook/posts');
             this.posts = result.data;
             console.log(this.posts)
         }
