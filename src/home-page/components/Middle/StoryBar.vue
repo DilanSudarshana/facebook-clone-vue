@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-light p-2 d-flex justify-content-between  align-items-center mt-2 rounded">
+    <div class="bg-light p-2 d-flex justify-content-between  align-items-center mt-2 rounded shadow">
         <div id="row" class="row overflow-x-scroll d-flex flex-nowrap flex-row overflow-hidden mx-1">
 
             <div v-for="item in status" :key="item.id" class="card m-2 p-0" style="width: 9rem; height: 12rem;">

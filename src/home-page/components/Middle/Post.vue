@@ -1,6 +1,6 @@
 <template>
 
-    <div v-for="post in posts" :key="post.id" class="container rounded bg-light mt-2 mb-3">
+    <div v-for="post in posts" :key="post.id" class="container rounded bg-light mt-2 mb-3 shadow">
         <router-link :to="'/profile/' + post.user_id" style="text-decoration: none;color: black;">
             <div class="row p-2">
                 <div class=" d-flex justify-content-between align-items-start">

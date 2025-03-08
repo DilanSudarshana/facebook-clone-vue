@@ -4,13 +4,13 @@
         <div class="container">
 
             <div class="row sticky-top">
-                <Navbar></Navbar>
+                <Navbar class="shadow"></Navbar>
             </div>
 
             <div class="row">
-                <MainLeft style="position: sticky;top: 0;"></MainLeft>
+                <MainLeft style="position: sticky;top: 0;" class="shadow"></MainLeft>
                 <MainMiddle style="overflow-y: auto;"></MainMiddle>
-                <MainRight style="position: sticky;top: 0;"></MainRight>
+                <MainRight style="position: sticky;top: 0;" class="shadow"></MainRight>
             </div>
         </div>
     </div>
