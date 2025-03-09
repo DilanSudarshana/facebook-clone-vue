@@ -76,7 +76,7 @@ export default {
                 console.log('Login successful');
                 this.email = "";
                 this.password = "";
-                localStorage.setItem("user-info", JSON.stringify(result.data));
+                localStorage.setItem("user-info", JSON.stringify(result.data.user));
                 this.$router.push({ name: 'Index' });
 
             } else {
