@@ -30,7 +30,7 @@ export default {
         MainLeft,
         MainMiddle,
         MainRight,
-    }
+    },
 
 }
 </script>
