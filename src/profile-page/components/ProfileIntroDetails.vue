@@ -1,6 +1,6 @@
 <template>
 
-    <div v-for="profile in profileDetails" class="bg-light rounded mt-0 p-2 ">
+    <div v-for="profile in profileDetails" class="bg-light rounded mt-0 p-2 shadow">
         <div class=" d-flex justify-content-start align-items-center ">
 
             <div class=" d-flex flex-column justify-content-start align-items-start p-1">
@@ -134,7 +134,7 @@ export default {
     methods: {
         async getProfileDetails() {
 
-            let id = this.$route.params.id
+            let id = this.$route.params.id;
             let result = await axios.get('http://localhost/facebook/profile/' + id);
             this.profileDetails = result.data;
             console.log(this.profileDetails);

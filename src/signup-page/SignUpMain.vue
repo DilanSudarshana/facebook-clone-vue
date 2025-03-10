@@ -198,7 +198,7 @@ export default {
     methods: {
         async signUp() {
 
-            let result = await axios.post('http://localhost/facebook/user/store', {
+            let result = await axios.post('http://localhost/facebook/user/store/data', {
                 first_name: this.first_name,
                 last_name: this.last_name,
                 dob: this.dob,

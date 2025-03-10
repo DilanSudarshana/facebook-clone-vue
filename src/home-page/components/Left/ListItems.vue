@@ -192,7 +192,6 @@ export default {
         async getProfile() {
             let user = localStorage.getItem('user-info');
             this.profile = JSON.parse(user);
-            console.log(this.profile);
 
             if (!(this.profile.logged_in == true)) {
                 this.$router.push({ name: 'LoginMain' })

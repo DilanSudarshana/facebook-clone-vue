@@ -1,8 +1,8 @@
 <template>
 
-    <div class="col-lg-8 col-md-12 ">
+    <div class="col-lg-8 col-md-12">
 
-        <div class="d-flex flex-row justify-content-center align-items-start bg-light rounded" style="height: 18vh;">
+        <div class="d-flex flex-row justify-content-center align-items-start bg-light rounded shadow" style="height: 18vh;">
             <div class="container">
 
                 <div class="row">
