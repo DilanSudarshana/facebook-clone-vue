@@ -113,7 +113,6 @@ export default {
         async getStatus() {
             let result = await axios.get('http://localhost/facebook/posts');
             this.posts = result.data;
-            console.log(this.posts)
         }
     },
 

@@ -58,6 +58,10 @@ export default {
         async getUsers() {
             let result = await axios.get('http://localhost/facebook/user');
             this.users = result.data;
+        },
+
+        logUser() {
+            let logged_user = localStorage.getItem('user-info');
         }
     },
     mounted() {

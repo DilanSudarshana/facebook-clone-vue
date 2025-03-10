@@ -76,7 +76,6 @@ export default {
                             'Content-Type': 'multipart/form-data'
                         }
                     });
-                    console.log(response.data);
                 } catch (error) {
                     console.error('Error creating post:', error.response?.data || error);
                 }
