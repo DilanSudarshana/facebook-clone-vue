@@ -11,7 +11,7 @@
                             <div class="d-flex justify-content-start align-items-center">
                                 <div class="rounded-circle me-3 my-2"
                                     style="width: 30vh; height: 30vh; overflow: hidden; background-color: #f0f0f0;">
-                                    <img :src="profile.image" style="width: 30vh; height: 30vh;"
+                                    <img :src="profile.image" style="width: 50vh; height: 30vh;background-size:contain;"
                                         alt="">
                                 </div>
 
