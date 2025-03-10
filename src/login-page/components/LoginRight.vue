@@ -60,27 +60,31 @@ export default {
     methods: {
 
         async login() {
-            await axios.post(`http://localhost/facebook/user/login`, {
-                withCredentials: true,
-                headers: {
-                    "Content-Type": "application/json",
-                    Accept: "application/json",
-                },
-                name: this.password,
+
+            let result = await axios.post('http://localhost/facebook/login', {
                 email: this.email,
-            })
-                .then(response => {
-                    console.log(`login response success`);
-                    this.password = ""
-                    this.email = ""
-                })
-                .catch(error => {
-                    console.error(error);
+                password: this.password,
+            }, {
+                headers: {
+                    'Content-Type': 'multipart/form-data'
+                }
+            }
+            )
 
-                    this.password = ""
-                    this.email = ""
-                });
+            if (result.data.status === true) {
 
+                console.log('Login successful');
+                this.email = "";
+                this.password = "";
+                localStorage.setItem("user-info", JSON.stringify(result.data.user));
+                this.$router.push({ name: 'Index' });
+
+            } else {
+                console.log('Login failed. Invalid credentials.');
+                alert('Invalid credentials. Please try again.');
+                this.email = "";
+                this.password = "";
+            }
         }
 
     }

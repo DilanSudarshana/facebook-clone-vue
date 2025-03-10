@@ -28,6 +28,6 @@ export default {
         ProfileSearch,
         ProfileIntroDetails,
         Photos,
-    }
+    },
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
 
-    <div class="d-flex flex-row justify-content-center align-items-start bg-light rounded mt-2" style="height: 18vh;">
+    <div class="d-flex flex-row justify-content-center align-items-start bg-light rounded mt-2 shadow" style="height: 18vh;">
         <div class="container">
 
             <div class="row">

@@ -9,10 +9,10 @@
 
                         <div class="col-lg-8 col-md-12">
                             <div class="d-flex justify-content-start align-items-center">
-                                <div class="rounded-circle me-3 my-2"
+                                <div class="rounded-circle me-3 my-2 shadow"
                                     style="width: 30vh; height: 30vh; overflow: hidden; background-color: #f0f0f0;">
-                                    <img :src="profile.image" style="width: 30vh; height: 30vh;"
-                                        alt="">
+                                    <img :src="profile.image" style="width: 30vh; height: 30vh;background-size:contain;"
+                                        alt="pro-image" class="shadow-lg">
                                 </div>
 
                                 <div class="text-strat">
@@ -165,11 +165,7 @@ export default {
         async getUsers() {
             let id = this.$route.params.id
             let result = await axios.get('http://localhost/facebook/user/' + id);
-            console.log(result.data);
             this.profile = result.data;
-
-            // let result = await axios.get('http://localhost/facebook/user');
-            // this.users = result.data;
         }
     },
     mounted() {

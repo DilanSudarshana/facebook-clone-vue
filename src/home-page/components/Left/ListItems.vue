@@ -2,15 +2,20 @@
 
     <div class="h-100 d-flex flex-column justify-content-start align-items-start mt-1">
 
+
         <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded mt-2 p-1" id="contact-item">
-            <div class="rounded-circle me-2"
-                style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
-                <img style="width: 30px; height: 30px;border-radius: 100px;" alt="">
-            </div>
-            <div class="fw-bold">
-                <p class="text-start fs-6">Dilan Sudarshana</p>
-            </div>
+            <router-link :to="'/profile/' + profile.user_id" style="text-decoration: none;color: black;"
+                class="d-flex flex-row">
+                <div class="rounded-circle me-2"
+                    style="width: 30px; height: 30px; overflow: hidden; background-color: #f0f0f0;">
+                    <img style="width: 30px; height: 30px;border-radius: 100px;" alt="" :src="profile.image">
+                </div>
+                <div class="fw-bold">
+                    <p class="text-start fs-6">{{ profile.first_name }} {{ profile.last_name }}</p>
+                </div>
+            </router-link>
         </div>
+
 
         <div class="d-flex flex-row justify-content-start align-items-start w-100 rounded p-1" id="contact-item">
             <div id="center-div" class="rounded d-flex align-items-center justify-content-center"
@@ -182,12 +187,21 @@ export default {
             profile: [],
         }
     },
+
     methods: {
         async getProfile() {
-            let result = await axios.get('http://localhost/facebook/profile');
-            this.profile = result.data;
+            let user = localStorage.getItem('user-info');
+            this.profile = JSON.parse(user);
+
+            if (!(this.profile.logged_in == true)) {
+                this.$router.push({ name: 'LoginMain' })
+            }
         }
     },
+
+    mounted() {
+        this.getProfile();
+    }
 
 
 

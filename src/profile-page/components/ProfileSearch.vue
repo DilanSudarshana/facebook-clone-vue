@@ -1,12 +1,12 @@
 <template>
 
-    <div class="col-lg-8 col-md-12 ">
+    <div class="col-lg-8 col-md-12">
 
-        <div class="d-flex flex-row justify-content-center align-items-start bg-light rounded" style="height: 18vh;">
+        <div class="d-flex flex-row justify-content-center align-items-start bg-light rounded shadow" style="height: 18vh;">
             <div class="container">
 
                 <div class="row">
-                    <div class="h-100 d-flex flex-row justify-content-between align-items-start mt-2 ">
+                    <div class="h-100 d-flex flex-row justify-content-center align-items-start mt-2 ">
 
                         <div class="rounded-circle me-2 ms-2"
                             style="width: 40px; height: 40px; overflow: hidden; background-color: #f0f0f0;">
@@ -16,7 +16,7 @@
 
                         <div class="">
                             <input type="text" class="form-control rounded-pill" placeholder="Whats on your mind Dilan?"
-                                style="background-color: #f0f0f0;width: 105vh;" aria-label="Recipient's username"
+                                style="background-color: #f0f0f0;width: 50vh;" aria-label="Recipient's username"
                                 aria-describedby="basic-addon2">
                         </div>
                     </div>

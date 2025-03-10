@@ -21,6 +21,7 @@ import Navbar from '../includes/navbar/navbar.vue'
 import MainLeft from './components/Left/MainLeft.vue';
 import MainMiddle from './components/Middle/MainMiddle.vue';
 import MainRight from './components/Right/MainRight.vue';
+import axios from 'axios';
 
 export default {
     name: 'Index',
@@ -30,6 +31,13 @@ export default {
         MainLeft,
         MainMiddle,
         MainRight,
+    },
+
+    mounted() {
+        let user = localStorage.getItem('user-info');
+        if (!user) {
+            this.$router.push({ name: 'LoginMain' })
+        }
     }
 
 }
