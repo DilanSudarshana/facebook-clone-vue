@@ -137,7 +137,6 @@ export default {
             let id = this.$route.params.id;
             let result = await axios.get('http://localhost/facebook/profile/' + id);
             this.profileDetails = result.data;
-            console.log(this.profileDetails);
         }
     },
 

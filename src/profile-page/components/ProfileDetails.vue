@@ -7,7 +7,7 @@
                 <div class="container">
                     <div class="row">
 
-                        <div class="col-lg-8 col-md-12">
+                        <div class="col-lg-8 col-sm-12 col-md-12">
                             <div class="d-flex justify-content-start align-items-center">
                                 <div class="rounded-circle me-3 my-2 shadow"
                                     style="width: 30vh; height: 30vh; overflow: hidden; background-color: #f0f0f0;">
@@ -51,10 +51,9 @@
 
                                     <div class="col-lg-12 col-md-6 mt-3">
                                         <div class="d-flex justify-content-end align-items-end">
-                                            <button type="button" class="me-2 btn btn-primary btn-sm fw-bold">Edit
-                                                Profile</button>
-                                            <button type="button" class="btn btn-secondary btn-sm fw-bold">Edit
-                                                Profile</button>
+                                           <EditProfile></EditProfile>
+                                            <!-- <button type="button" class="btn btn-secondary btn-sm fw-bold">Edit
+                                                Profile</button> -->
                                         </div>
                                     </div>
                                 </div>
@@ -146,6 +145,7 @@
 
 <script>
 import ProfileIntro from './ProfileIntro.vue';
+import EditProfile from './EditProfile.vue';
 import axios from 'axios';
 
 export default {
@@ -153,6 +153,7 @@ export default {
 
     components: {
         ProfileIntro,
+        EditProfile,
     },
 
     data() {
