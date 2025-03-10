@@ -81,6 +81,9 @@ export default {
 
             } else {
                 console.log('Login failed. Invalid credentials.');
+                alert('Invalid credentials. Please try again.');
+                this.email = "";
+                this.password = "";
             }
         }
 

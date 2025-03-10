@@ -165,11 +165,7 @@ export default {
         async getUsers() {
             let id = this.$route.params.id
             let result = await axios.get('http://localhost/facebook/user/' + id);
-            console.log(result.data);
             this.profile = result.data;
-
-            // let result = await axios.get('http://localhost/facebook/user');
-            // this.users = result.data;
         }
     },
     mounted() {

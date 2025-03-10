@@ -47,7 +47,7 @@ export default {
         return {
             description: "",
             image: null,
-            user_id: 1,
+            user_id: "",
             type: 1,
         };
     },
@@ -58,6 +58,9 @@ export default {
         },
 
         async createPost() {
+            let user = localStorage.getItem('user-info');
+            this.user_id = JSON.parse(user).user_id;
+            console.log(this.user_id);
 
             const reader = new FileReader();
 

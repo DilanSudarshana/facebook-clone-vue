@@ -12,14 +12,25 @@
                 <div class="col-lg-12 col-md-12 mb-1">
                     <div class="d-flex justify-content-between">
 
-                        <div class="d-flex bg-primary" style="height: 15vh;width: 15vh;">
+                        <div v-for="image_data in imagesData" :key="image_data.id" class="d-flex bg-primary"
+                            style="height: 15vh;width: 15vh;overflow: hidden;">
+                            <img :src="image_data.image" alt="" style="height: 15vh;width: 15vh;">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12 mb-1">
+                    <div class="d-flex justify-content-between">
+
+                        <div class="d-flex" style="height: 15vh;width: 15vh;">
                             <img src="" alt="">
                         </div>
 
-                        <div class="d-flex bg-primary" style="height: 15vh;width: 15vh;">
+                        <div class="d-flex" style="height: 15vh;width: 15vh;">
                             <img src="" alt="">
                         </div>
-                        <div class="d-flex bg-primary" style="height: 15vh;width: 15vh;">
+                        <div class="d-flex" style="height: 15vh;width: 15vh;">
                             <img src="" alt="">
                         </div>
                     </div>
@@ -28,30 +39,14 @@
                 <div class="col-lg-12 col-md-12 mb-1">
                     <div class="d-flex justify-content-between">
 
-                        <div class="d-flex bg-primary" style="height: 15vh;width: 15vh;">
+                        <div class="d-flex" style="height: 15vh;width: 15vh;">
                             <img src="" alt="">
                         </div>
 
-                        <div class="d-flex bg-primary" style="height: 15vh;width: 15vh;">
+                        <div class="d-flex" style="height: 15vh;width: 15vh;">
                             <img src="" alt="">
                         </div>
-                        <div class="d-flex bg-primary" style="height: 15vh;width: 15vh;">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-12 col-md-12 mb-1">
-                    <div class="d-flex justify-content-between">
-
-                        <div class="d-flex bg-primary" style="height: 15vh;width: 15vh;">
-                            <img src="" alt="">
-                        </div>
-
-                        <div class="d-flex bg-primary" style="height: 15vh;width: 15vh;">
-                            <img src="" alt="">
-                        </div>
-                        <div class="d-flex bg-primary" style="height: 15vh;width: 15vh;">
+                        <div class="d-flex" style="height: 15vh;width: 15vh;">
                             <img src="" alt="">
                         </div>
                     </div>
@@ -67,12 +62,27 @@
 
 
 <script>
-
+import axios from 'axios';
 
 export default {
-    name: 'Photos'
+    name: 'Photos',
+
+    data() {
+        return {
+            imagesData: [],
+        }
+    },
+
+    methods: {
+        async getImages() {
+            let id = this.$route.params.id
+            let result = await axios.get('http://localhost/facebook/posts/images/' + id);
+            this.imagesData = result.data;
+            // console.log(imagesData.image);
+        }
+    },
+    mounted() {
+        this.getImages();
+    }
 }
 </script>
-<style lang="">
-
-</style>
